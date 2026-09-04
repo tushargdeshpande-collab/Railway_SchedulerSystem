@@ -1,0 +1,16 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+  "solver_status": "FEASIBLE",
+  "solver_runtime_seconds": 30.613,
+  "objective_value": 1267403.0,
+  "total_tasks": 200,
+  "scheduled_tasks": 200,
+  "unscheduled_tasks": 0,
+  "critical_tasks_scheduled": 18,
+  "high_tasks_scheduled": 55,
+  "blocks_used": 107,
+  "bundled_blocks": 84,
+  "tasks_in_bundled_blocks": 177,
+  "average_block_utilization_percent": 64.15,
+  "estimated_total_train_impact_minutes": 49.0
+}

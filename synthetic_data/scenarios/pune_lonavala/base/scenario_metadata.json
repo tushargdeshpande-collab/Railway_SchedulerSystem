@@ -1,0 +1,11 @@
+{
+  "scenario": "Pune-Lonavala Dynamic Block Planning",
+  "disclaimer": "Synthetic Demonstration Data - Station names are used only to demonstrate the planning workflow. Train timings, counts, chainages, maintenance tasks and forecasts are not official Indian Railways operational data.",
+  "random_seed": 2026,
+  "planning_start": "2026-09-01",
+  "planning_days": 7,
+  "daily_services": 36,
+  "section_count": 8,
+  "train_section_movements": 2016,
+  "maintenance_task_count": 72
+}

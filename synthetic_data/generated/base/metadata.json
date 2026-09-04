@@ -1,0 +1,11 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+  "random_seed": 42,
+  "reference_date": "2026-08-28",
+  "record_count": 200,
+  "source_systems": [
+    "TMS",
+    "SMMS",
+    "TDMS"
+  ]
+}

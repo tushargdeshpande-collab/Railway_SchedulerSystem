@@ -1,0 +1,326 @@
+{
+  "plans": {
+    "weekly": {
+      "status": "Approved",
+      "planning_horizon": "weekly",
+      "approver_name": "Demo Section Controller",
+      "approver_role": "Authorized Railway Planner",
+      "remarks": "Validated synthetic weekly plan approved for demonstration.",
+      "decided_at": "2026-08-29T23:21:32.461979"
+    },
+    "monthly": {
+      "status": "Pending",
+      "planning_horizon": "monthly",
+      "approver_name": null,
+      "approver_role": null,
+      "remarks": null,
+      "decided_at": null
+    }
+  },
+  "block_locks": {
+    "weekly:PL-BLOCK-00021": {
+      "block_id": "PL-BLOCK-00021",
+      "planning_horizon": "weekly",
+      "locked": false,
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "reason": "Validated synthetic weekly plan approved for demonstration.",
+      "updated_at": "2026-08-29T23:30:30.105337"
+    },
+    "weekly:PL-BLOCK-00010": {
+      "block_id": "PL-BLOCK-00010",
+      "planning_horizon": "weekly",
+      "locked": false,
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "reason": "Validated synthetic weekly plan approved for demonstration.",
+      "updated_at": "2026-08-29T23:21:31.414628"
+    },
+    "weekly:PL-BLOCK-00167": {
+      "block_id": "PL-BLOCK-00167",
+      "planning_horizon": "weekly",
+      "locked": false,
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "reason": "Validated synthetic weekly plan approved for demonstration.",
+      "updated_at": "2026-09-02T20:01:50.339828"
+    }
+  },
+  "audit_log": [
+    {
+      "audit_id": "AUDIT-6815AD2899",
+      "timestamp": "2026-08-29T23:03:17.320858",
+      "action": "PLAN_APPROVED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "weekly-plan",
+      "details": {
+        "decision": "approve",
+        "status": "Approved",
+        "remarks": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-6D8EB80299",
+      "timestamp": "2026-08-29T23:03:17.325207",
+      "action": "BLOCK_LOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00021",
+      "details": {
+        "locked": true,
+        "reason": "Approved possession protected from automatic movement."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-E3D880FABB",
+      "timestamp": "2026-08-29T23:20:13.410814",
+      "action": "BLOCK_LOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00010",
+      "details": {
+        "locked": true,
+        "reason": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-7CF4575D5D",
+      "timestamp": "2026-08-29T23:20:51.591258",
+      "action": "BLOCK_UNLOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00010",
+      "details": {
+        "locked": false,
+        "reason": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-9A8495C120",
+      "timestamp": "2026-08-29T23:20:54.096814",
+      "action": "BLOCK_LOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00010",
+      "details": {
+        "locked": true,
+        "reason": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-F064A4ACF6",
+      "timestamp": "2026-08-29T23:20:56.012954",
+      "action": "BLOCK_UNLOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00010",
+      "details": {
+        "locked": false,
+        "reason": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-CF9E1DB6D0",
+      "timestamp": "2026-08-29T23:21:10.597643",
+      "action": "PLAN_REJECTED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "weekly-plan",
+      "details": {
+        "decision": "reject",
+        "status": "Rejected",
+        "remarks": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-177F03F84B",
+      "timestamp": "2026-08-29T23:21:18.663084",
+      "action": "PLAN_PENDING",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "weekly-plan",
+      "details": {
+        "decision": "reset",
+        "status": "Pending",
+        "remarks": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-84788C4070",
+      "timestamp": "2026-08-29T23:21:23.863466",
+      "action": "PLAN_APPROVED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "weekly-plan",
+      "details": {
+        "decision": "approve",
+        "status": "Approved",
+        "remarks": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-736E823C11",
+      "timestamp": "2026-08-29T23:21:26.246059",
+      "action": "PLAN_PENDING",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "weekly-plan",
+      "details": {
+        "decision": "reset",
+        "status": "Pending",
+        "remarks": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-6AFF6C3552",
+      "timestamp": "2026-08-29T23:21:27.029794",
+      "action": "PLAN_PENDING",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "weekly-plan",
+      "details": {
+        "decision": "reset",
+        "status": "Pending",
+        "remarks": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-44EC49BE53",
+      "timestamp": "2026-08-29T23:21:27.498206",
+      "action": "PLAN_PENDING",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "weekly-plan",
+      "details": {
+        "decision": "reset",
+        "status": "Pending",
+        "remarks": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-49C509D632",
+      "timestamp": "2026-08-29T23:21:30.064724",
+      "action": "BLOCK_UNLOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00010",
+      "details": {
+        "locked": false,
+        "reason": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-54D520F711",
+      "timestamp": "2026-08-29T23:21:31.414734",
+      "action": "BLOCK_UNLOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00010",
+      "details": {
+        "locked": false,
+        "reason": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-6F81F37E1C",
+      "timestamp": "2026-08-29T23:21:32.462079",
+      "action": "PLAN_APPROVED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "weekly-plan",
+      "details": {
+        "decision": "approve",
+        "status": "Approved",
+        "remarks": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-240488E913",
+      "timestamp": "2026-08-29T23:30:30.105534",
+      "action": "BLOCK_UNLOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00021",
+      "details": {
+        "locked": false,
+        "reason": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-A1F2C55A87",
+      "timestamp": "2026-08-30T12:20:07.785921",
+      "action": "BLOCK_LOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00167",
+      "details": {
+        "locked": true,
+        "reason": "Approved possession protected for September 6 controlled test"
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-F498E6FD49",
+      "timestamp": "2026-09-02T13:43:23.282511",
+      "action": "BLOCK_LOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00167",
+      "details": {
+        "locked": true,
+        "reason": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    },
+    {
+      "audit_id": "AUDIT-415E6F3389",
+      "timestamp": "2026-09-02T20:01:50.340233",
+      "action": "BLOCK_UNLOCKED",
+      "planning_horizon": "weekly",
+      "actor_name": "Demo Section Controller",
+      "actor_role": "Authorized Railway Planner",
+      "target_id": "PL-BLOCK-00167",
+      "details": {
+        "locked": false,
+        "reason": "Validated synthetic weekly plan approved for demonstration."
+      },
+      "synthetic_data": true
+    }
+  ],
+  "synthetic_data": true
+}

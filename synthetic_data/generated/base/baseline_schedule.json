@@ -1,0 +1,4402 @@
+[
+  {
+    "schedule_id": "BASELINE-00002",
+    "block_id": "BLOCK-000065",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-01T00:00:00",
+    "scheduled_end": "2026-09-01T01:45:00",
+    "task_ids": [
+      "TASK-0104"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 35.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0104. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00003",
+    "block_id": "BLOCK-000015",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-01T00:00:00",
+    "scheduled_end": "2026-09-01T02:45:00",
+    "task_ids": [
+      "TASK-0069"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0069. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00006",
+    "block_id": "BLOCK-000066",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-01T00:00:00",
+    "scheduled_end": "2026-09-01T01:15:00",
+    "task_ids": [
+      "TASK-0159"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 25.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0159. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00009",
+    "block_id": "BLOCK-000009",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-02",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-01T00:00:00",
+    "scheduled_end": "2026-09-01T01:45:00",
+    "task_ids": [
+      "TASK-0086"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 35.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0086. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00013",
+    "block_id": "BLOCK-000029",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-01T00:00:00",
+    "scheduled_end": "2026-09-01T03:15:00",
+    "task_ids": [
+      "TASK-0096"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 65.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0096. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00020",
+    "block_id": "BLOCK-000079",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-01T00:00:00",
+    "scheduled_end": "2026-09-01T01:15:00",
+    "task_ids": [
+      "TASK-0008"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 25.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0008. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00024",
+    "block_id": "BLOCK-000030",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-01T00:00:00",
+    "scheduled_end": "2026-09-01T03:15:00",
+    "task_ids": [
+      "TASK-0127"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 65.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0127. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00121",
+    "block_id": "BLOCK-000021",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-01T00:00:00",
+    "scheduled_end": "2026-09-01T01:15:00",
+    "task_ids": [
+      "TASK-0100"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 25.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0100. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00159",
+    "block_id": "BLOCK-000016",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-01T00:00:00",
+    "scheduled_end": "2026-09-01T02:45:00",
+    "task_ids": [
+      "TASK-0079"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0079. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00005",
+    "block_id": "BLOCK-000061",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-01T10:00:00",
+    "scheduled_end": "2026-09-01T11:30:00",
+    "task_ids": [
+      "TASK-0032"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 37.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0032. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00010",
+    "block_id": "BLOCK-000094",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-01T10:00:00",
+    "scheduled_end": "2026-09-01T11:45:00",
+    "task_ids": [
+      "TASK-0023"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 43.75,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0023. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00071",
+    "block_id": "BLOCK-000023",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-01T10:00:00",
+    "scheduled_end": "2026-09-01T11:00:00",
+    "task_ids": [
+      "TASK-0174"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 98.36,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0174. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00100",
+    "block_id": "BLOCK-000024",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-01T10:00:00",
+    "scheduled_end": "2026-09-01T11:00:00",
+    "task_ids": [
+      "TASK-0197"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 98.36,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0197. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00015",
+    "block_id": "BLOCK-000037",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-01T10:30:00",
+    "scheduled_end": "2026-09-01T12:45:00",
+    "task_ids": [
+      "TASK-0091"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 64.29,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0091. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00029",
+    "block_id": "BLOCK-000038",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-01T10:30:00",
+    "scheduled_end": "2026-09-01T13:45:00",
+    "task_ids": [
+      "TASK-0034"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 92.86,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0034. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00131",
+    "block_id": "BLOCK-000088",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-01T10:35:00",
+    "scheduled_end": "2026-09-01T12:50:00",
+    "task_ids": [
+      "TASK-0124"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 65.85,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0124. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00008",
+    "block_id": "BLOCK-000075",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-01T10:51:00",
+    "scheduled_end": "2026-09-01T13:36:00",
+    "task_ids": [
+      "TASK-0141"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 87.3,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0141. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00004",
+    "block_id": "BLOCK-000025",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-01T11:29:00",
+    "scheduled_end": "2026-09-01T13:14:00",
+    "task_ids": [
+      "TASK-0144"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 69.54,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0144. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00055",
+    "block_id": "BLOCK-000026",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-01T11:29:00",
+    "scheduled_end": "2026-09-01T12:59:00",
+    "task_ids": [
+      "TASK-0131"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 59.6,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0131. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00103",
+    "block_id": "BLOCK-000069",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-01T11:52:00",
+    "scheduled_end": "2026-09-01T13:07:00",
+    "task_ids": [
+      "TASK-0020"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 58.59,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0020. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00012",
+    "block_id": "BLOCK-000014",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-02",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-01T21:30:00",
+    "scheduled_end": "2026-09-01T23:45:00",
+    "task_ids": [
+      "TASK-0053"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 90.6,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0053. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00018",
+    "block_id": "BLOCK-000057",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-09",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-01T21:30:00",
+    "scheduled_end": "2026-09-01T23:45:00",
+    "task_ids": [
+      "TASK-0138"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 90.6,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0138. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00026",
+    "block_id": "BLOCK-000058",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-09",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-01T21:30:00",
+    "scheduled_end": "2026-09-01T23:45:00",
+    "task_ids": [
+      "TASK-0114"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 90.6,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0114. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00032",
+    "block_id": "BLOCK-000033",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-01T21:30:00",
+    "scheduled_end": "2026-09-01T22:30:00",
+    "task_ids": [
+      "TASK-0101"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 40.27,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0101. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00115",
+    "block_id": "BLOCK-000034",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-01T21:30:00",
+    "scheduled_end": "2026-09-01T22:45:00",
+    "task_ids": [
+      "TASK-0014"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 50.34,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0014. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00001",
+    "block_id": "BLOCK-000045",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-01T21:33:00",
+    "scheduled_end": "2026-09-01T23:48:00",
+    "task_ids": [
+      "TASK-0040"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 92.47,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0040. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00039",
+    "block_id": "BLOCK-000046",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-01T21:33:00",
+    "scheduled_end": "2026-09-01T22:33:00",
+    "task_ids": [
+      "TASK-0072"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 41.1,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0072. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00027",
+    "block_id": "BLOCK-000077",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-01T21:47:00",
+    "scheduled_end": "2026-09-01T23:02:00",
+    "task_ids": [
+      "TASK-0118"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 56.82,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0118. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00007",
+    "block_id": "BLOCK-000157",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-02T00:00:00",
+    "scheduled_end": "2026-09-02T02:15:00",
+    "task_ids": [
+      "TASK-0090"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 45.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0090. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00011",
+    "block_id": "BLOCK-000151",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-02T00:00:00",
+    "scheduled_end": "2026-09-02T02:30:00",
+    "task_ids": [
+      "TASK-0054"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0054. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00022",
+    "block_id": "BLOCK-000109",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-02T00:00:00",
+    "scheduled_end": "2026-09-02T01:30:00",
+    "task_ids": [
+      "TASK-0185"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 30.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0185. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00028",
+    "block_id": "BLOCK-000103",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-02",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-02T00:00:00",
+    "scheduled_end": "2026-09-02T02:45:00",
+    "task_ids": [
+      "TASK-0022"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0022. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00030",
+    "block_id": "BLOCK-000110",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-02T00:00:00",
+    "scheduled_end": "2026-09-02T02:45:00",
+    "task_ids": [
+      "TASK-0113"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0113. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00037",
+    "block_id": "BLOCK-000115",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-02T00:00:00",
+    "scheduled_end": "2026-09-02T03:15:00",
+    "task_ids": [
+      "TASK-0058"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 65.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0058. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00045",
+    "block_id": "BLOCK-000152",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-02T00:00:00",
+    "scheduled_end": "2026-09-02T01:00:00",
+    "task_ids": [
+      "TASK-0018"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 20.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0018. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00050",
+    "block_id": "BLOCK-000133",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-02T00:00:00",
+    "scheduled_end": "2026-09-02T03:45:00",
+    "task_ids": [
+      "TASK-0085"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 75.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0085. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00108",
+    "block_id": "BLOCK-000158",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-02T00:00:00",
+    "scheduled_end": "2026-09-02T02:45:00",
+    "task_ids": [
+      "TASK-0158"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0158. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00016",
+    "block_id": "BLOCK-000183",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-02T10:00:00",
+    "scheduled_end": "2026-09-02T11:15:00",
+    "task_ids": [
+      "TASK-0013"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 31.25,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0013. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00019",
+    "block_id": "BLOCK-000153",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-02T10:00:00",
+    "scheduled_end": "2026-09-02T11:00:00",
+    "task_ids": [
+      "TASK-0170"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 26.09,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0170. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00025",
+    "block_id": "BLOCK-000184",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-02T10:00:00",
+    "scheduled_end": "2026-09-02T12:00:00",
+    "task_ids": [
+      "TASK-0074"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0074. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00035",
+    "block_id": "BLOCK-000111",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-02T10:00:00",
+    "scheduled_end": "2026-09-02T11:30:00",
+    "task_ids": [
+      "TASK-0039"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 37.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0039. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00038",
+    "block_id": "BLOCK-000112",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-02T10:00:00",
+    "scheduled_end": "2026-09-02T12:45:00",
+    "task_ids": [
+      "TASK-0176"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 68.75,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0176. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00054",
+    "block_id": "BLOCK-000165",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-02T10:00:00",
+    "scheduled_end": "2026-09-02T12:15:00",
+    "task_ids": [
+      "TASK-0160"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 56.25,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0160. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00068",
+    "block_id": "BLOCK-000129",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-02T10:00:00",
+    "scheduled_end": "2026-09-02T12:45:00",
+    "task_ids": [
+      "TASK-0031"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 68.75,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0031. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00081",
+    "block_id": "BLOCK-000130",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-02T10:00:00",
+    "scheduled_end": "2026-09-02T12:15:00",
+    "task_ids": [
+      "TASK-0003"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 56.25,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0003. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00023",
+    "block_id": "BLOCK-000105",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-02",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-02T10:04:00",
+    "scheduled_end": "2026-09-02T11:19:00",
+    "task_ids": [
+      "TASK-0060"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 31.78,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0060. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00042",
+    "block_id": "BLOCK-000149",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-09",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-02T21:30:00",
+    "scheduled_end": "2026-09-02T23:15:00",
+    "task_ids": [
+      "TASK-0006"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 70.47,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0006. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00047",
+    "block_id": "BLOCK-000125",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-02T21:30:00",
+    "scheduled_end": "2026-09-02T23:30:00",
+    "task_ids": [
+      "TASK-0188"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 80.54,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0188. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00051",
+    "block_id": "BLOCK-000150",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-09",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-02T21:30:00",
+    "scheduled_end": "2026-09-02T22:45:00",
+    "task_ids": [
+      "TASK-0046"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 50.34,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0046. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00056",
+    "block_id": "BLOCK-000114",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-02T21:30:00",
+    "scheduled_end": "2026-09-02T23:00:00",
+    "task_ids": [
+      "TASK-0198"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 60.4,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0198. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00073",
+    "block_id": "BLOCK-000108",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-02",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-02T21:30:00",
+    "scheduled_end": "2026-09-02T22:45:00",
+    "task_ids": [
+      "TASK-0094"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 50.34,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0094. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00074",
+    "block_id": "BLOCK-000173",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-02T21:30:00",
+    "scheduled_end": "2026-09-02T22:45:00",
+    "task_ids": [
+      "TASK-0169"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 50.34,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0169. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00014",
+    "block_id": "BLOCK-000239",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-09",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-03T00:00:00",
+    "scheduled_end": "2026-09-03T02:45:00",
+    "task_ids": [
+      "TASK-0015"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 55.18,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0015. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00021",
+    "block_id": "BLOCK-000187",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-01",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-03T00:00:00",
+    "scheduled_end": "2026-09-03T01:45:00",
+    "task_ids": [
+      "TASK-0153"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 35.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0153. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00036",
+    "block_id": "BLOCK-000240",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-09",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-03T00:00:00",
+    "scheduled_end": "2026-09-03T02:45:00",
+    "task_ids": [
+      "TASK-0028"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 55.18,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0028. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00044",
+    "block_id": "BLOCK-000261",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-03T00:00:00",
+    "scheduled_end": "2026-09-03T02:00:00",
+    "task_ids": [
+      "TASK-0142"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 40.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0142. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00049",
+    "block_id": "BLOCK-000267",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-03T00:00:00",
+    "scheduled_end": "2026-09-03T01:00:00",
+    "task_ids": [
+      "TASK-0026"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 20.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0026. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00057",
+    "block_id": "BLOCK-000205",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-03T00:00:00",
+    "scheduled_end": "2026-09-03T02:45:00",
+    "task_ids": [
+      "TASK-0024"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0024. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00063",
+    "block_id": "BLOCK-000188",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-01",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-03T00:00:00",
+    "scheduled_end": "2026-09-03T01:15:00",
+    "task_ids": [
+      "TASK-0044"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 25.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0044. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00095",
+    "block_id": "BLOCK-000253",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-03T00:00:00",
+    "scheduled_end": "2026-09-03T03:15:00",
+    "task_ids": [
+      "TASK-0001"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 65.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0001. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00158",
+    "block_id": "BLOCK-000268",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-03T00:00:00",
+    "scheduled_end": "2026-09-03T01:15:00",
+    "task_ids": [
+      "TASK-0149"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 25.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0149. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00040",
+    "block_id": "BLOCK-000249",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-03T10:00:00",
+    "scheduled_end": "2026-09-03T13:45:00",
+    "task_ids": [
+      "TASK-0064"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 93.75,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0064. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00053",
+    "block_id": "BLOCK-000250",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-03T10:00:00",
+    "scheduled_end": "2026-09-03T11:15:00",
+    "task_ids": [
+      "TASK-0161"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 31.25,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0161. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00096",
+    "block_id": "BLOCK-000201",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-03T10:00:00",
+    "scheduled_end": "2026-09-03T10:45:00",
+    "task_ids": [
+      "TASK-0083"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 18.75,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0083. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00126",
+    "block_id": "BLOCK-000219",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-03T10:00:00",
+    "scheduled_end": "2026-09-03T11:00:00",
+    "task_ids": [
+      "TASK-0036"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 83.33,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0036. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00164",
+    "block_id": "BLOCK-000220",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-03T10:00:00",
+    "scheduled_end": "2026-09-03T10:45:00",
+    "task_ids": [
+      "TASK-0065"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 62.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0065. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00033",
+    "block_id": "BLOCK-000228",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-03T10:26:00",
+    "scheduled_end": "2026-09-03T11:56:00",
+    "task_ids": [
+      "TASK-0181"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 42.06,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0181. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00060",
+    "block_id": "BLOCK-000213",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-03T10:43:00",
+    "scheduled_end": "2026-09-03T12:28:00",
+    "task_ids": [
+      "TASK-0099"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 53.3,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0099. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00116",
+    "block_id": "BLOCK-000214",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-03T10:43:00",
+    "scheduled_end": "2026-09-03T13:43:00",
+    "task_ids": [
+      "TASK-0043"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 91.37,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0043. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00017",
+    "block_id": "BLOCK-000269",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-03T11:00:00",
+    "scheduled_end": "2026-09-03T14:00:00",
+    "task_ids": [
+      "TASK-0051"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 100.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0051. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00082",
+    "block_id": "BLOCK-000270",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-03T11:00:00",
+    "scheduled_end": "2026-09-03T12:15:00",
+    "task_ids": [
+      "TASK-0119"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 41.67,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0119. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00176",
+    "block_id": "BLOCK-000235",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-08",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-03T11:23:00",
+    "scheduled_end": "2026-09-03T13:38:00",
+    "task_ids": [
+      "TASK-0162"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 85.99,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0162. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00092",
+    "block_id": "BLOCK-000221",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-03T11:41:00",
+    "scheduled_end": "2026-09-03T13:11:00",
+    "task_ids": [
+      "TASK-0089"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 64.75,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0089. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00041",
+    "block_id": "BLOCK-000287",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-03T21:30:00",
+    "scheduled_end": "2026-09-03T23:00:00",
+    "task_ids": [
+      "TASK-0011"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 60.4,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0011. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00052",
+    "block_id": "BLOCK-000288",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-03T21:30:00",
+    "scheduled_end": "2026-09-03T23:45:00",
+    "task_ids": [
+      "TASK-0082"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 90.6,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0082. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00061",
+    "block_id": "BLOCK-000223",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-03T21:30:00",
+    "scheduled_end": "2026-09-03T23:15:00",
+    "task_ids": [
+      "TASK-0175"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 70.47,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0175. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00062",
+    "block_id": "BLOCK-000203",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-03T21:30:00",
+    "scheduled_end": "2026-09-03T23:00:00",
+    "task_ids": [
+      "TASK-0102"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 60.4,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0102. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00093",
+    "block_id": "BLOCK-000224",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-03T21:30:00",
+    "scheduled_end": "2026-09-03T22:45:00",
+    "task_ids": [
+      "TASK-0080"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 50.34,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0080. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00110",
+    "block_id": "BLOCK-000197",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-02",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-03T21:30:00",
+    "scheduled_end": "2026-09-03T23:30:00",
+    "task_ids": [
+      "TASK-0116"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 80.54,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0116. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00139",
+    "block_id": "BLOCK-000209",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-03T21:30:00",
+    "scheduled_end": "2026-09-03T23:00:00",
+    "task_ids": [
+      "TASK-0109"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 60.4,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0109. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00182",
+    "block_id": "BLOCK-000210",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-03T21:30:00",
+    "scheduled_end": "2026-09-03T22:45:00",
+    "task_ids": [
+      "TASK-0168"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 50.34,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0168. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00031",
+    "block_id": "BLOCK-000309",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-04T00:00:00",
+    "scheduled_end": "2026-09-04T03:15:00",
+    "task_ids": [
+      "TASK-0042"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 65.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0042. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00043",
+    "block_id": "BLOCK-000329",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-04T00:00:00",
+    "scheduled_end": "2026-09-04T02:30:00",
+    "task_ids": [
+      "TASK-0136"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0136. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00046",
+    "block_id": "BLOCK-000365",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-04T00:00:00",
+    "scheduled_end": "2026-09-04T02:30:00",
+    "task_ids": [
+      "TASK-0163"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0163. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00048",
+    "block_id": "BLOCK-000330",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-04T00:00:00",
+    "scheduled_end": "2026-09-04T01:45:00",
+    "task_ids": [
+      "TASK-0012"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 35.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0012. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00066",
+    "block_id": "BLOCK-000347",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-04T00:00:00",
+    "scheduled_end": "2026-09-04T01:15:00",
+    "task_ids": [
+      "TASK-0146"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 25.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0146. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00067",
+    "block_id": "BLOCK-000371",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-04T00:00:00",
+    "scheduled_end": "2026-09-04T02:30:00",
+    "task_ids": [
+      "TASK-0125"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0125. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00102",
+    "block_id": "BLOCK-000310",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-04T00:00:00",
+    "scheduled_end": "2026-09-04T02:45:00",
+    "task_ids": [
+      "TASK-0084"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0084. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00104",
+    "block_id": "BLOCK-000372",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-04T00:00:00",
+    "scheduled_end": "2026-09-04T02:15:00",
+    "task_ids": [
+      "TASK-0200"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 45.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0200. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00129",
+    "block_id": "BLOCK-000323",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-04T00:00:00",
+    "scheduled_end": "2026-09-04T03:15:00",
+    "task_ids": [
+      "TASK-0088"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 65.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0088. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00070",
+    "block_id": "BLOCK-000349",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-04T10:02:00",
+    "scheduled_end": "2026-09-04T11:32:00",
+    "task_ids": [
+      "TASK-0122"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 37.82,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0122. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00099",
+    "block_id": "BLOCK-000350",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-04T10:02:00",
+    "scheduled_end": "2026-09-04T13:32:00",
+    "task_ids": [
+      "TASK-0007"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 88.24,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0007. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00188",
+    "block_id": "BLOCK-000305",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-04T10:02:00",
+    "scheduled_end": "2026-09-04T13:17:00",
+    "task_ids": [
+      "TASK-0172"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 81.93,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0172. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00084",
+    "block_id": "BLOCK-000337",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-08",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-04T10:41:00",
+    "scheduled_end": "2026-09-04T12:56:00",
+    "task_ids": [
+      "TASK-0049"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 67.84,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0049. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00064",
+    "block_id": "BLOCK-000291",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-01",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-04T10:59:00",
+    "scheduled_end": "2026-09-04T12:29:00",
+    "task_ids": [
+      "TASK-0021"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 49.72,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0021. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00086",
+    "block_id": "BLOCK-000292",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-01",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-04T10:59:00",
+    "scheduled_end": "2026-09-04T12:44:00",
+    "task_ids": [
+      "TASK-0062"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 58.01,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0062. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00124",
+    "block_id": "BLOCK-000319",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-04T11:26:00",
+    "scheduled_end": "2026-09-04T13:11:00",
+    "task_ids": [
+      "TASK-0030"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 68.18,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0030. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00085",
+    "block_id": "BLOCK-000381",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-04T11:34:00",
+    "scheduled_end": "2026-09-04T13:49:00",
+    "task_ids": [
+      "TASK-0033"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 92.47,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0033. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00072",
+    "block_id": "BLOCK-000375",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-04T21:30:00",
+    "scheduled_end": "2026-09-04T23:00:00",
+    "task_ids": [
+      "TASK-0081"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 60.4,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0081. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00087",
+    "block_id": "BLOCK-000313",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-04T21:30:00",
+    "scheduled_end": "2026-09-04T23:45:00",
+    "task_ids": [
+      "TASK-0123"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 90.6,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0123. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00130",
+    "block_id": "BLOCK-000321",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-04T21:30:00",
+    "scheduled_end": "2026-09-04T23:15:00",
+    "task_ids": [
+      "TASK-0103"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 70.47,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0103. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00134",
+    "block_id": "BLOCK-000327",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-04T21:30:00",
+    "scheduled_end": "2026-09-04T23:15:00",
+    "task_ids": [
+      "TASK-0098"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 70.47,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0098. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00194",
+    "block_id": "BLOCK-000322",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-04T21:30:00",
+    "scheduled_end": "2026-09-04T22:45:00",
+    "task_ids": [
+      "TASK-0151"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 50.34,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0151. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00076",
+    "block_id": "BLOCK-000363",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-04T21:39:00",
+    "scheduled_end": "2026-09-04T22:54:00",
+    "task_ids": [
+      "TASK-0152"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 53.57,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0152. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00077",
+    "block_id": "BLOCK-000364",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-04T21:39:00",
+    "scheduled_end": "2026-09-04T23:39:00",
+    "task_ids": [
+      "TASK-0190"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 85.71,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0190. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00059",
+    "block_id": "BLOCK-000425",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-05T00:00:00",
+    "scheduled_end": "2026-09-05T01:30:00",
+    "task_ids": [
+      "TASK-0108"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 30.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0108. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00065",
+    "block_id": "BLOCK-000426",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-05T00:00:00",
+    "scheduled_end": "2026-09-05T02:45:00",
+    "task_ids": [
+      "TASK-0004"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0004. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00079",
+    "block_id": "BLOCK-000469",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-05T00:00:00",
+    "scheduled_end": "2026-09-05T03:00:00",
+    "task_ids": [
+      "TASK-0184"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 60.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0184. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00097",
+    "block_id": "BLOCK-000419",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-05T00:00:00",
+    "scheduled_end": "2026-09-05T02:45:00",
+    "task_ids": [
+      "TASK-0045"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0045. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00101",
+    "block_id": "BLOCK-000397",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-05T00:00:00",
+    "scheduled_end": "2026-09-05T01:15:00",
+    "task_ids": [
+      "TASK-0134"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 25.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0134. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00135",
+    "block_id": "BLOCK-000445",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-05T00:00:00",
+    "scheduled_end": "2026-09-05T02:45:00",
+    "task_ids": [
+      "TASK-0035"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0035. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00142",
+    "block_id": "BLOCK-000411",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-05T00:00:00",
+    "scheduled_end": "2026-09-05T01:30:00",
+    "task_ids": [
+      "TASK-0112"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 30.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0112. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00170",
+    "block_id": "BLOCK-000420",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-05T00:00:00",
+    "scheduled_end": "2026-09-05T02:45:00",
+    "task_ids": [
+      "TASK-0029"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0029. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00198",
+    "block_id": "BLOCK-000405",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-05T00:00:00",
+    "scheduled_end": "2026-09-05T03:00:00",
+    "task_ids": [
+      "TASK-0126"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 60.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0126. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00098",
+    "block_id": "BLOCK-000471",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-05T10:00:00",
+    "scheduled_end": "2026-09-05T13:15:00",
+    "task_ids": [
+      "TASK-0189"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 83.69,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0189. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00146",
+    "block_id": "BLOCK-000472",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-05T10:00:00",
+    "scheduled_end": "2026-09-05T11:00:00",
+    "task_ids": [
+      "TASK-0129"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 25.75,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0129. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00034",
+    "block_id": "BLOCK-000394",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-02",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-05T10:11:00",
+    "scheduled_end": "2026-09-05T12:56:00",
+    "task_ids": [
+      "TASK-0027"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 72.05,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0027. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00107",
+    "block_id": "BLOCK-000434",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-08",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-05T10:35:00",
+    "scheduled_end": "2026-09-05T11:35:00",
+    "task_ids": [
+      "TASK-0056"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 29.27,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0056. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00111",
+    "block_id": "BLOCK-000447",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-05T10:44:00",
+    "scheduled_end": "2026-09-05T13:29:00",
+    "task_ids": [
+      "TASK-0187"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 84.18,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0187. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00125",
+    "block_id": "BLOCK-000448",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-05T10:44:00",
+    "scheduled_end": "2026-09-05T13:59:00",
+    "task_ids": [
+      "TASK-0166"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 99.49,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0166. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00088",
+    "block_id": "BLOCK-000427",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-05T10:45:00",
+    "scheduled_end": "2026-09-05T11:45:00",
+    "task_ids": [
+      "TASK-0071"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 30.77,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0071. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00117",
+    "block_id": "BLOCK-000407",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-05T11:01:00",
+    "scheduled_end": "2026-09-05T12:16:00",
+    "task_ids": [
+      "TASK-0016"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 41.9,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0016. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00105",
+    "block_id": "BLOCK-000389",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-01",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-05T21:30:00",
+    "scheduled_end": "2026-09-05T23:00:00",
+    "task_ids": [
+      "TASK-0193"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 60.4,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0193. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00140",
+    "block_id": "BLOCK-000455",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-05T21:30:00",
+    "scheduled_end": "2026-09-05T23:45:00",
+    "task_ids": [
+      "TASK-0139"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 90.6,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0139. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00147",
+    "block_id": "BLOCK-000456",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-05T21:30:00",
+    "scheduled_end": "2026-09-05T23:15:00",
+    "task_ids": [
+      "TASK-0182"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 70.47,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0182. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00187",
+    "block_id": "BLOCK-000403",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-05T21:30:00",
+    "scheduled_end": "2026-09-05T23:30:00",
+    "task_ids": [
+      "TASK-0145"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 80.54,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0145. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00196",
+    "block_id": "BLOCK-000390",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-01",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-05T21:30:00",
+    "scheduled_end": "2026-09-05T23:15:00",
+    "task_ids": [
+      "TASK-0140"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 70.47,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0140. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00075",
+    "block_id": "BLOCK-000551",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-06T00:00:00",
+    "scheduled_end": "2026-09-06T03:15:00",
+    "task_ids": [
+      "TASK-0130"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 65.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0130. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00080",
+    "block_id": "BLOCK-000552",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-06T00:00:00",
+    "scheduled_end": "2026-09-06T02:30:00",
+    "task_ids": [
+      "TASK-0156"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0156. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00106",
+    "block_id": "BLOCK-000531",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-09",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-06T00:00:00",
+    "scheduled_end": "2026-09-06T02:45:00",
+    "task_ids": [
+      "TASK-0038"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0038. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00123",
+    "block_id": "BLOCK-000564",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-06T00:00:00",
+    "scheduled_end": "2026-09-06T01:00:00",
+    "task_ids": [
+      "TASK-0143"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 20.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0143. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00145",
+    "block_id": "BLOCK-000539",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-06T00:00:00",
+    "scheduled_end": "2026-09-06T02:00:00",
+    "task_ids": [
+      "TASK-0070"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 40.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0070. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00150",
+    "block_id": "BLOCK-000540",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-06T00:00:00",
+    "scheduled_end": "2026-09-06T02:45:00",
+    "task_ids": [
+      "TASK-0186"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0186. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00172",
+    "block_id": "BLOCK-000513",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-06T00:00:00",
+    "scheduled_end": "2026-09-06T03:15:00",
+    "task_ids": [
+      "TASK-0075"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 65.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0075. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00069",
+    "block_id": "BLOCK-000571",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-06T10:00:00",
+    "scheduled_end": "2026-09-06T12:30:00",
+    "task_ids": [
+      "TASK-0196"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 62.5,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0196. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00078",
+    "block_id": "BLOCK-000572",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-06T10:00:00",
+    "scheduled_end": "2026-09-06T12:45:00",
+    "task_ids": [
+      "TASK-0017"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 68.75,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0017. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00136",
+    "block_id": "BLOCK-000483",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-01",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-06T10:00:00",
+    "scheduled_end": "2026-09-06T11:45:00",
+    "task_ids": [
+      "TASK-0115"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 43.75,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0115. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00167",
+    "block_id": "BLOCK-000503",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-06T10:29:00",
+    "scheduled_end": "2026-09-06T12:29:00",
+    "task_ids": [
+      "TASK-0135"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 58.82,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0135. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00137",
+    "block_id": "BLOCK-000527",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-08",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-06T10:59:00",
+    "scheduled_end": "2026-09-06T13:14:00",
+    "task_ids": [
+      "TASK-0105"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 74.59,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0105. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00132",
+    "block_id": "BLOCK-000535",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-09",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-06T11:48:00",
+    "scheduled_end": "2026-09-06T13:33:00",
+    "task_ids": [
+      "TASK-0165"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 79.55,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0165. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00113",
+    "block_id": "BLOCK-000561",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-06T21:30:00",
+    "scheduled_end": "2026-09-06T23:30:00",
+    "task_ids": [
+      "TASK-0194"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 80.54,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0194. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00138",
+    "block_id": "BLOCK-000512",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-06T21:30:00",
+    "scheduled_end": "2026-09-06T23:15:00",
+    "task_ids": [
+      "TASK-0132"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 70.47,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0132. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00083",
+    "block_id": "BLOCK-000599",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-07T00:00:00",
+    "scheduled_end": "2026-09-07T03:15:00",
+    "task_ids": [
+      "TASK-0067"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 65.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0067. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00109",
+    "block_id": "BLOCK-000661",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-07T00:00:00",
+    "scheduled_end": "2026-09-07T02:45:00",
+    "task_ids": [
+      "TASK-0179"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0179. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00133",
+    "block_id": "BLOCK-000600",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-07T00:00:00",
+    "scheduled_end": "2026-09-07T01:15:00",
+    "task_ids": [
+      "TASK-0047"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 25.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0047. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00148",
+    "block_id": "BLOCK-000662",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-07T00:00:00",
+    "scheduled_end": "2026-09-07T02:15:00",
+    "task_ids": [
+      "TASK-0183"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 45.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0183. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00161",
+    "block_id": "BLOCK-000635",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-07T00:00:00",
+    "scheduled_end": "2026-09-07T03:30:00",
+    "task_ids": [
+      "TASK-0025"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 70.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0025. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00166",
+    "block_id": "BLOCK-000623",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-09",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-07T00:00:00",
+    "scheduled_end": "2026-09-07T02:45:00",
+    "task_ids": [
+      "TASK-0117"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0117. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00193",
+    "block_id": "BLOCK-000636",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-07T00:00:00",
+    "scheduled_end": "2026-09-07T02:15:00",
+    "task_ids": [
+      "TASK-0073"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 45.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0073. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00090",
+    "block_id": "BLOCK-000663",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-07T10:48:00",
+    "scheduled_end": "2026-09-07T13:03:00",
+    "task_ids": [
+      "TASK-0121"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 70.31,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0121. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00120",
+    "block_id": "BLOCK-000664",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-07T10:48:00",
+    "scheduled_end": "2026-09-07T12:03:00",
+    "task_ids": [
+      "TASK-0059"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 39.06,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0059. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00122",
+    "block_id": "BLOCK-000613",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-07T11:16:00",
+    "scheduled_end": "2026-09-07T13:46:00",
+    "task_ids": [
+      "TASK-0120"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 91.46,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0120. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00128",
+    "block_id": "BLOCK-000614",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-07T11:16:00",
+    "scheduled_end": "2026-09-07T13:01:00",
+    "task_ids": [
+      "TASK-0010"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 64.02,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0010. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00089",
+    "block_id": "BLOCK-000645",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-07T21:30:00",
+    "scheduled_end": "2026-09-07T23:15:00",
+    "task_ids": [
+      "TASK-0195"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 70.47,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0195. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00091",
+    "block_id": "BLOCK-000646",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-07T21:30:00",
+    "scheduled_end": "2026-09-07T23:00:00",
+    "task_ids": [
+      "TASK-0150"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 60.4,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0150. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00118",
+    "block_id": "BLOCK-000653",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-07T21:30:00",
+    "scheduled_end": "2026-09-07T23:15:00",
+    "task_ids": [
+      "TASK-0061"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 70.47,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0061. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00143",
+    "block_id": "BLOCK-000654",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-07T21:30:00",
+    "scheduled_end": "2026-09-07T22:30:00",
+    "task_ids": [
+      "TASK-0173"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 40.27,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0173. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00144",
+    "block_id": "BLOCK-000580",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-01",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-07T21:30:00",
+    "scheduled_end": "2026-09-07T23:30:00",
+    "task_ids": [
+      "TASK-0157"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 80.54,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0157. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00058",
+    "block_id": "BLOCK-000675",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-02",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-08T00:00:00",
+    "scheduled_end": "2026-09-08T02:45:00",
+    "task_ids": [
+      "TASK-0133"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0133. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00112",
+    "block_id": "BLOCK-000717",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-09",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-08T00:00:00",
+    "scheduled_end": "2026-09-08T02:45:00",
+    "task_ids": [
+      "TASK-0019"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0019. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00149",
+    "block_id": "BLOCK-000731",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-08T00:00:00",
+    "scheduled_end": "2026-09-08T02:30:00",
+    "task_ids": [
+      "TASK-0050"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0050. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00165",
+    "block_id": "BLOCK-000757",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-08T00:00:00",
+    "scheduled_end": "2026-09-08T01:45:00",
+    "task_ids": [
+      "TASK-0154"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 35.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0154. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00181",
+    "block_id": "BLOCK-000688",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-DOWN",
+    "scheduled_start": "2026-09-08T00:00:00",
+    "scheduled_end": "2026-09-08T02:45:00",
+    "task_ids": [
+      "TASK-0009"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0009. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00183",
+    "block_id": "BLOCK-000758",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-08T00:00:00",
+    "scheduled_end": "2026-09-08T02:30:00",
+    "task_ids": [
+      "TASK-0048"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0048. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00197",
+    "block_id": "BLOCK-000705",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-07",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-08T00:00:00",
+    "scheduled_end": "2026-09-08T01:45:00",
+    "task_ids": [
+      "TASK-0066"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 35.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0066. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00163",
+    "block_id": "BLOCK-000747",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-08T10:00:00",
+    "scheduled_end": "2026-09-08T13:00:00",
+    "task_ids": [
+      "TASK-0076"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 77.92,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0076. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00119",
+    "block_id": "BLOCK-000741",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-08T10:35:00",
+    "scheduled_end": "2026-09-08T13:20:00",
+    "task_ids": [
+      "TASK-0078"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 80.49,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0078. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00127",
+    "block_id": "BLOCK-000742",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-08T10:35:00",
+    "scheduled_end": "2026-09-08T11:20:00",
+    "task_ids": [
+      "TASK-0002"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 21.95,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0002. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00141",
+    "block_id": "BLOCK-000743",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-08T21:30:00",
+    "scheduled_end": "2026-09-08T22:30:00",
+    "task_ids": [
+      "TASK-0092"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 40.27,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0092. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00190",
+    "block_id": "BLOCK-000744",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-08T21:30:00",
+    "scheduled_end": "2026-09-08T23:45:00",
+    "task_ids": [
+      "TASK-0177"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 90.6,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0177. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00155",
+    "block_id": "BLOCK-000769",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-02",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-09T00:00:00",
+    "scheduled_end": "2026-09-09T01:30:00",
+    "task_ids": [
+      "TASK-0052"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 30.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0052. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00157",
+    "block_id": "BLOCK-000775",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-09T00:00:00",
+    "scheduled_end": "2026-09-09T02:00:00",
+    "task_ids": [
+      "TASK-0167"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 40.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0167. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00168",
+    "block_id": "BLOCK-000776",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-09T00:00:00",
+    "scheduled_end": "2026-09-09T03:00:00",
+    "task_ids": [
+      "TASK-0180"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 60.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0180. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00191",
+    "block_id": "BLOCK-000789",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-05",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-09T00:00:00",
+    "scheduled_end": "2026-09-09T02:15:00",
+    "task_ids": [
+      "TASK-0191"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 45.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0191. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00195",
+    "block_id": "BLOCK-000849",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-15",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-09T00:00:00",
+    "scheduled_end": "2026-09-09T02:45:00",
+    "task_ids": [
+      "TASK-0171"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 55.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0171. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00186",
+    "block_id": "BLOCK-000845",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-09T10:58:00",
+    "scheduled_end": "2026-09-09T12:28:00",
+    "task_ids": [
+      "TASK-0005"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 49.45,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0005. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00174",
+    "block_id": "BLOCK-000779",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-09T11:48:00",
+    "scheduled_end": "2026-09-09T13:03:00",
+    "task_ids": [
+      "TASK-0068"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 56.82,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0068. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00189",
+    "block_id": "BLOCK-000847",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-09T21:30:00",
+    "scheduled_end": "2026-09-09T22:30:00",
+    "task_ids": [
+      "TASK-0093"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 40.27,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0093. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00094",
+    "block_id": "BLOCK-000925",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-10T00:00:00",
+    "scheduled_end": "2026-09-10T03:30:00",
+    "task_ids": [
+      "TASK-0037"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 71.92,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0037. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00156",
+    "block_id": "BLOCK-000902",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-08",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-10T00:00:00",
+    "scheduled_end": "2026-09-10T02:15:00",
+    "task_ids": [
+      "TASK-0063"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 45.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0063. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00162",
+    "block_id": "BLOCK-000862",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-02",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-10T00:00:00",
+    "scheduled_end": "2026-09-10T01:15:00",
+    "task_ids": [
+      "TASK-0155"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 25.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0155. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00173",
+    "block_id": "BLOCK-000933",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-13",
+    "track_id": "GFC-UP",
+    "scheduled_start": "2026-09-10T00:00:00",
+    "scheduled_end": "2026-09-10T02:30:00",
+    "task_ids": [
+      "TASK-0097"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0097. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00192",
+    "block_id": "BLOCK-000940",
+    "corridor_id": "COR-05",
+    "section_id": "SEC-14",
+    "track_id": "GFC-DOWN",
+    "scheduled_start": "2026-09-10T00:00:00",
+    "scheduled_end": "2026-09-10T01:00:00",
+    "task_ids": [
+      "TASK-0111"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 20.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0111. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00199",
+    "block_id": "BLOCK-000926",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-10T00:00:00",
+    "scheduled_end": "2026-09-10T01:45:00",
+    "task_ids": [
+      "TASK-0199"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 35.96,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0199. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00177",
+    "block_id": "BLOCK-000915",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-10T10:47:00",
+    "scheduled_end": "2026-09-10T13:02:00",
+    "task_ids": [
+      "TASK-0055"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 73.37,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0055. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00152",
+    "block_id": "BLOCK-000871",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-UP",
+    "scheduled_start": "2026-09-10T11:23:00",
+    "scheduled_end": "2026-09-10T13:38:00",
+    "task_ids": [
+      "TASK-0192"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 85.99,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0192. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00185",
+    "block_id": "BLOCK-000872",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-03",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-10T11:23:00",
+    "scheduled_end": "2026-09-10T12:23:00",
+    "task_ids": [
+      "TASK-0095"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 38.22,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0095. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00171",
+    "block_id": "BLOCK-001019",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-11T00:00:00",
+    "scheduled_end": "2026-09-11T01:15:00",
+    "task_ids": [
+      "TASK-0107"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 25.77,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0107. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00154",
+    "block_id": "BLOCK-001001",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-08",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-11T11:32:00",
+    "scheduled_end": "2026-09-11T13:02:00",
+    "task_ids": [
+      "TASK-0137"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 62.94,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0137. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00169",
+    "block_id": "BLOCK-001002",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-08",
+    "track_id": "GSC-DOWN",
+    "scheduled_start": "2026-09-11T11:32:00",
+    "scheduled_end": "2026-09-11T13:47:00",
+    "task_ids": [
+      "TASK-0057"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 94.41,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0057. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00151",
+    "block_id": "BLOCK-000958",
+    "corridor_id": "COR-01",
+    "section_id": "SEC-01",
+    "track_id": "GNC-DOWN",
+    "scheduled_start": "2026-09-11T21:30:00",
+    "scheduled_end": "2026-09-11T23:00:00",
+    "task_ids": [
+      "TASK-0077"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 60.4,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0077. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00184",
+    "block_id": "BLOCK-001079",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-06",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-12T00:00:00",
+    "scheduled_end": "2026-09-12T01:45:00",
+    "task_ids": [
+      "TASK-0178"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 35.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0178. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00200",
+    "block_id": "BLOCK-001109",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-11",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-12T00:00:00",
+    "scheduled_end": "2026-09-12T01:00:00",
+    "task_ids": [
+      "TASK-0110"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 20.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0110. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00179",
+    "block_id": "BLOCK-001093",
+    "corridor_id": "COR-03",
+    "section_id": "SEC-08",
+    "track_id": "GSC-UP",
+    "scheduled_start": "2026-09-12T10:00:00",
+    "scheduled_end": "2026-09-12T11:15:00",
+    "task_ids": [
+      "TASK-0147"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 31.25,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0147. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00178",
+    "block_id": "BLOCK-001106",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-12T10:17:00",
+    "scheduled_end": "2026-09-12T13:47:00",
+    "task_ids": [
+      "TASK-0148"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 94.17,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0148. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00175",
+    "block_id": "BLOCK-001119",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-12T21:30:00",
+    "scheduled_end": "2026-09-12T23:45:00",
+    "task_ids": [
+      "TASK-0128"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 90.6,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0128. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00160",
+    "block_id": "BLOCK-001198",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-DOWN",
+    "scheduled_start": "2026-09-13T00:00:00",
+    "scheduled_end": "2026-09-13T01:45:00",
+    "task_ids": [
+      "TASK-0164"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 35.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0164. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00153",
+    "block_id": "BLOCK-001159",
+    "corridor_id": "COR-02",
+    "section_id": "SEC-04",
+    "track_id": "GEC-UP",
+    "scheduled_start": "2026-09-13T10:00:00",
+    "scheduled_end": "2026-09-13T13:00:00",
+    "task_ids": [
+      "TASK-0087"
+    ],
+    "departments": [
+      "Traction Distribution"
+    ],
+    "utilization_percent": 75.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Traction Distribution independently selected the first available valid block for TASK-0087. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00114",
+    "block_id": "BLOCK-001213",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-12",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-13T10:11:00",
+    "scheduled_end": "2026-09-13T13:41:00",
+    "task_ids": [
+      "TASK-0106"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 91.7,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Engineering independently selected the first available valid block for TASK-0106. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "BASELINE-00180",
+    "block_id": "BLOCK-001295",
+    "corridor_id": "COR-04",
+    "section_id": "SEC-10",
+    "track_id": "GWC-UP",
+    "scheduled_start": "2026-09-14T00:00:00",
+    "scheduled_end": "2026-09-14T00:45:00",
+    "task_ids": [
+      "TASK-0041"
+    ],
+    "departments": [
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 15.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Signal & Telecommunication independently selected the first available valid block for TASK-0041. No cross-department bundling was attempted.",
+    "synthetic_data": true
+  }
+]

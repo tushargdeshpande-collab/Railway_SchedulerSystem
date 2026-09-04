@@ -1,0 +1,37 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Station names are used only to demonstrate the planning workflow. Train timings, counts, chainages, maintenance tasks and forecasts are not official Indian Railways operational data.",
+  "event": {
+    "event_id": "PL-EVENT-001",
+    "event_type": "Priority Perishable Goods Movement",
+    "train_id": "PL-PRF-001",
+    "description": "An additional time-sensitive synthetic goods train carrying perishable cargo requires corridor access.",
+    "operating_date": "2026-09-04",
+    "corridor_entry": "2026-09-04T01:20:00",
+    "corridor_exit": "2026-09-04T03:15:00",
+    "direction": "Pune to Lonavala",
+    "priority": 10,
+    "maximum_permissible_delay_minutes": 0,
+    "synthetic_data": true
+  },
+  "conflict_detected": true,
+  "conflict_record_count": 2,
+  "affected_schedule_count": 2,
+  "affected_block_count": 2,
+  "affected_task_count": 4,
+  "affected_schedule_ids": [
+    "SCHEDULE-00023",
+    "SCHEDULE-00024"
+  ],
+  "affected_block_ids": [
+    "PL-BLOCK-00097",
+    "PL-BLOCK-00121"
+  ],
+  "affected_task_ids": [
+    "PL-TASK-0044",
+    "PL-TASK-0050",
+    "PL-TASK-0051",
+    "PL-TASK-0067"
+  ],
+  "locked_conflict_count": 0,
+  "recommended_action": "Re-optimize affected future maintenance tasks while preserving unaffected and locked blocks."
+}

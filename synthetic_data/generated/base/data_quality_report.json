@@ -1,0 +1,35 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+  "status": "PASS",
+  "summary": {
+    "maintenance_tasks": 200,
+    "train_movements": 1800,
+    "goods_forecasts": 1800,
+    "block_windows": 2854,
+    "planning_days": 30,
+    "overdue_tasks": 130,
+    "tasks_with_bundling_opportunities": 141
+  },
+  "passed_check_count": 14,
+  "passed_checks": [
+    "Maintenance task volume: 200",
+    "Train movement volume: 1800",
+    "Goods forecast volume: 1800",
+    "Block window volume: 2854",
+    "task_id values are unique",
+    "movement_id values are unique",
+    "forecast_id values are unique",
+    "block_id values are unique",
+    "All corridor and section references are valid",
+    "Department and source-system mappings are valid",
+    "Task dependency and compatibility references are valid",
+    "Train timetable covers 30 planning days",
+    "Goods forecast covers 30 planning days",
+    "No train movement overlaps a generated block window"
+  ],
+  "warning_count": 0,
+  "warnings": [],
+  "error_count": 0,
+  "errors": [],
+  "train_block_conflict_samples": []
+}

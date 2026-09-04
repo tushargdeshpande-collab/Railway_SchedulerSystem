@@ -1,0 +1,38 @@
+[
+  {
+    "task_id": "PL-TASK-0010",
+    "department": "Engineering",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-04",
+    "priority_score": 51.76,
+    "priority_level": "Medium",
+    "overdue_days": 0,
+    "candidate_count": 14,
+    "reason": "Feasible blocks exist, but the task was not selected because higher-value work, dependencies, resources or coordination created a better overall plan.",
+    "synthetic_data": true
+  },
+  {
+    "task_id": "PL-TASK-0022",
+    "department": "Engineering",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-08",
+    "priority_score": 51.72,
+    "priority_level": "Medium",
+    "overdue_days": 12,
+    "candidate_count": 14,
+    "reason": "Feasible blocks exist, but the task was not selected because higher-value work, dependencies, resources or coordination created a better overall plan.",
+    "synthetic_data": true
+  },
+  {
+    "task_id": "PL-TASK-0049",
+    "department": "Engineering",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-01",
+    "priority_score": 42.22,
+    "priority_level": "Low",
+    "overdue_days": 0,
+    "candidate_count": 14,
+    "reason": "Feasible blocks exist, but the task was not selected because higher-value work, dependencies, resources or coordination created a better overall plan.",
+    "synthetic_data": true
+  }
+]

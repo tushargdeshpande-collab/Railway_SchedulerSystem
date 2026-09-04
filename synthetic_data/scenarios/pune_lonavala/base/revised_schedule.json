@@ -1,0 +1,820 @@
+[
+  {
+    "schedule_id": "SCHEDULE-00001",
+    "block_id": "PL-BLOCK-00021",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-06",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-01T00:30:00",
+    "scheduled_end": "2026-09-01T03:00:00",
+    "task_ids": [
+      "PL-TASK-0016",
+      "PL-TASK-0018"
+    ],
+    "departments": [
+      "Engineering",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 62.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00021 for PL-TASK-0016, PL-TASK-0018. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00002",
+    "block_id": "PL-BLOCK-00029",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-08",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-01T00:30:00",
+    "scheduled_end": "2026-09-01T02:45:00",
+    "task_ids": [
+      "PL-TASK-0023",
+      "PL-TASK-0072"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 56.25,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00029 for PL-TASK-0023, PL-TASK-0072. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00003",
+    "block_id": "PL-BLOCK-00031",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-08",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-01T00:30:00",
+    "scheduled_end": "2026-09-01T02:45:00",
+    "task_ids": [
+      "PL-TASK-0046",
+      "PL-TASK-0071"
+    ],
+    "departments": [
+      "Engineering",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 56.25,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00031 for PL-TASK-0046, PL-TASK-0071. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00004",
+    "block_id": "PL-BLOCK-00023",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-06",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-01T00:30:00",
+    "scheduled_end": "2026-09-01T02:15:00",
+    "task_ids": [
+      "PL-TASK-0064",
+      "PL-TASK-0065"
+    ],
+    "departments": [
+      "Engineering",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 43.75,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00023 for PL-TASK-0064, PL-TASK-0065. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00005",
+    "block_id": "PL-BLOCK-00014",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-04",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-01T22:15:00",
+    "scheduled_end": "2026-09-01T23:45:00",
+    "task_ids": [
+      "PL-TASK-0012",
+      "PL-TASK-0035"
+    ],
+    "departments": [
+      "Traction Distribution",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 90.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00014 for PL-TASK-0012, PL-TASK-0035. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00006",
+    "block_id": "PL-BLOCK-00018",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-05",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-01T22:15:00",
+    "scheduled_end": "2026-09-01T23:45:00",
+    "task_ids": [
+      "PL-TASK-0014",
+      "PL-TASK-0015"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 90.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00018 for PL-TASK-0014, PL-TASK-0015. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00007",
+    "block_id": "PL-BLOCK-00032",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-08",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-01T22:15:00",
+    "scheduled_end": "2026-09-01T23:45:00",
+    "task_ids": [
+      "PL-TASK-0024",
+      "PL-TASK-0070"
+    ],
+    "departments": [
+      "Traction Distribution",
+      "Engineering"
+    ],
+    "utilization_percent": 90.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00032 for PL-TASK-0024, PL-TASK-0070. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00008",
+    "block_id": "PL-BLOCK-00010",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-03",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-01T22:15:00",
+    "scheduled_end": "2026-09-01T23:30:00",
+    "task_ids": [
+      "PL-TASK-0055"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 75.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00010 for PL-TASK-0055. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00009",
+    "block_id": "PL-BLOCK-00035",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-01",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-02T00:30:00",
+    "scheduled_end": "2026-09-02T02:45:00",
+    "task_ids": [
+      "PL-TASK-0002",
+      "PL-TASK-0027"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 56.25,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00035 for PL-TASK-0002, PL-TASK-0027. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00010",
+    "block_id": "PL-BLOCK-00037",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-02",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-02T00:30:00",
+    "scheduled_end": "2026-09-02T02:45:00",
+    "task_ids": [
+      "PL-TASK-0004",
+      "PL-TASK-0030"
+    ],
+    "departments": [
+      "Engineering",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 56.25,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00037 for PL-TASK-0004, PL-TASK-0030. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00011",
+    "block_id": "PL-BLOCK-00043",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-03",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-02T00:30:00",
+    "scheduled_end": "2026-09-02T03:00:00",
+    "task_ids": [
+      "PL-TASK-0008",
+      "PL-TASK-0033"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 62.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00043 for PL-TASK-0008, PL-TASK-0033. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00012",
+    "block_id": "PL-BLOCK-00051",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-05",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-02T00:30:00",
+    "scheduled_end": "2026-09-02T02:15:00",
+    "task_ids": [
+      "PL-TASK-0037",
+      "PL-TASK-0062"
+    ],
+    "departments": [
+      "Engineering",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 43.75,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00051 for PL-TASK-0037, PL-TASK-0062. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00013",
+    "block_id": "PL-BLOCK-00054",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-06",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-02T22:15:00",
+    "scheduled_end": "2026-09-02T23:45:00",
+    "task_ids": [
+      "PL-TASK-0017",
+      "PL-TASK-0040",
+      "PL-TASK-0042"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Engineering",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 90.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00054 for PL-TASK-0017, PL-TASK-0040, PL-TASK-0042. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium. This block coordinates 3 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00014",
+    "block_id": "PL-BLOCK-00052",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-05",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-02T22:15:00",
+    "scheduled_end": "2026-09-02T23:30:00",
+    "task_ids": [
+      "PL-TASK-0038",
+      "PL-TASK-0039"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 75.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00052 for PL-TASK-0038, PL-TASK-0039. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00015",
+    "block_id": "PL-BLOCK-00089",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-07",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-03T00:30:00",
+    "scheduled_end": "2026-09-03T03:00:00",
+    "task_ids": [
+      "PL-TASK-0020",
+      "PL-TASK-0021"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 62.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00089 for PL-TASK-0020, PL-TASK-0021. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00016",
+    "block_id": "PL-BLOCK-00079",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-04",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-03T00:30:00",
+    "scheduled_end": "2026-09-03T02:30:00",
+    "task_ids": [
+      "PL-TASK-0034",
+      "PL-TASK-0059"
+    ],
+    "departments": [
+      "Engineering",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00079 for PL-TASK-0034, PL-TASK-0059. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "SCHEDULE-00017",
+    "block_id": "PL-BLOCK-00091",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-07",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-03T00:30:00",
+    "scheduled_end": "2026-09-03T02:15:00",
+    "task_ids": [
+      "PL-TASK-0043",
+      "PL-TASK-0045",
+      "PL-TASK-0068"
+    ],
+    "departments": [
+      "Engineering",
+      "Traction Distribution",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 43.75,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "Selected PL-BLOCK-00091 for PL-TASK-0043, PL-TASK-0045, PL-TASK-0068. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 3 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00001",
+    "block_id": "PL-BLOCK-00080",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-04",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-03T22:15:00",
+    "scheduled_end": "2026-09-03T23:30:00",
+    "task_ids": [
+      "PL-TASK-0036",
+      "PL-TASK-0058"
+    ],
+    "departments": [
+      "Traction Distribution",
+      "Engineering"
+    ],
+    "utilization_percent": 75.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00080 for PL-TASK-0036, PL-TASK-0058. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00002",
+    "block_id": "PL-BLOCK-00070",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-02",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-03T22:15:00",
+    "scheduled_end": "2026-09-03T23:45:00",
+    "task_ids": [
+      "PL-TASK-0053",
+      "PL-TASK-0054"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 90.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00070 for PL-TASK-0053, PL-TASK-0054. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00003",
+    "block_id": "PL-BLOCK-00103",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-02",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-04T00:30:00",
+    "scheduled_end": "2026-09-04T03:00:00",
+    "task_ids": [
+      "PL-TASK-0005",
+      "PL-TASK-0052"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Engineering"
+    ],
+    "utilization_percent": 62.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00103 for PL-TASK-0005, PL-TASK-0052. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00004",
+    "block_id": "PL-BLOCK-00125",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-08",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-04T00:30:00",
+    "scheduled_end": "2026-09-04T03:00:00",
+    "task_ids": [
+      "PL-TASK-0047",
+      "PL-TASK-0048"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 62.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00125 for PL-TASK-0047, PL-TASK-0048. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00005",
+    "block_id": "PL-BLOCK-00099",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-01",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-04T00:30:00",
+    "scheduled_end": "2026-09-04T02:45:00",
+    "task_ids": [
+      "PL-TASK-0050",
+      "PL-TASK-0051"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 56.25,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00099 for PL-TASK-0050, PL-TASK-0051. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00006",
+    "block_id": "PL-BLOCK-00123",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-07",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-04T00:30:00",
+    "scheduled_end": "2026-09-04T02:30:00",
+    "task_ids": [
+      "PL-TASK-0067",
+      "PL-TASK-0069"
+    ],
+    "departments": [
+      "Engineering",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00123 for PL-TASK-0067, PL-TASK-0069. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00007",
+    "block_id": "PL-BLOCK-00100",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-01",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-04T22:15:00",
+    "scheduled_end": "2026-09-04T23:45:00",
+    "task_ids": [
+      "PL-TASK-0001",
+      "PL-TASK-0003"
+    ],
+    "departments": [
+      "Engineering",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 90.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00100 for PL-TASK-0001, PL-TASK-0003. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00008",
+    "block_id": "PL-BLOCK-00118",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-06",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-04T22:15:00",
+    "scheduled_end": "2026-09-04T23:30:00",
+    "task_ids": [
+      "PL-TASK-0041",
+      "PL-TASK-0066"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 75.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00118 for PL-TASK-0041, PL-TASK-0066. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00009",
+    "block_id": "PL-BLOCK-00137",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-03",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-05T00:30:00",
+    "scheduled_end": "2026-09-05T03:00:00",
+    "task_ids": [
+      "PL-TASK-0009",
+      "PL-TASK-0032"
+    ],
+    "departments": [
+      "Traction Distribution",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 62.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00137 for PL-TASK-0009, PL-TASK-0032. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00010",
+    "block_id": "PL-BLOCK-00141",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-04",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-05T00:30:00",
+    "scheduled_end": "2026-09-05T01:45:00",
+    "task_ids": [
+      "PL-TASK-0011",
+      "PL-TASK-0060"
+    ],
+    "departments": [
+      "Signal & Telecommunication",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 31.25,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00141 for PL-TASK-0011, PL-TASK-0060. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00011",
+    "block_id": "PL-BLOCK-00145",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-05",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-05T00:30:00",
+    "scheduled_end": "2026-09-05T02:30:00",
+    "task_ids": [
+      "PL-TASK-0013",
+      "PL-TASK-0063"
+    ],
+    "departments": [
+      "Engineering",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00145 for PL-TASK-0013, PL-TASK-0063. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00012",
+    "block_id": "PL-BLOCK-00147",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-05",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-05T00:30:00",
+    "scheduled_end": "2026-09-05T02:30:00",
+    "task_ids": [
+      "PL-TASK-0061"
+    ],
+    "departments": [
+      "Engineering"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": false,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00147 for PL-TASK-0061. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00013",
+    "block_id": "PL-BLOCK-00138",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-03",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-05T22:15:00",
+    "scheduled_end": "2026-09-05T23:45:00",
+    "task_ids": [
+      "PL-TASK-0007",
+      "PL-TASK-0057"
+    ],
+    "departments": [
+      "Engineering",
+      "Traction Distribution"
+    ],
+    "utilization_percent": 90.0,
+    "estimated_train_impact_minutes": 2.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00138 for PL-TASK-0007, PL-TASK-0057. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Medium. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00014",
+    "block_id": "PL-BLOCK-00167",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-02",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-06T00:30:00",
+    "scheduled_end": "2026-09-06T03:00:00",
+    "task_ids": [
+      "PL-TASK-0006",
+      "PL-TASK-0028",
+      "PL-TASK-0029"
+    ],
+    "departments": [
+      "Traction Distribution",
+      "Engineering",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 62.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00167 for PL-TASK-0006, PL-TASK-0028, PL-TASK-0029. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 3 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00015",
+    "block_id": "PL-BLOCK-00187",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-07",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-06T00:30:00",
+    "scheduled_end": "2026-09-06T03:00:00",
+    "task_ids": [
+      "PL-TASK-0019",
+      "PL-TASK-0044"
+    ],
+    "departments": [
+      "Engineering",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 62.5,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00187 for PL-TASK-0019, PL-TASK-0044. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00016",
+    "block_id": "PL-BLOCK-00193",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-01",
+    "track_id": "PL-UP",
+    "scheduled_start": "2026-09-07T00:30:00",
+    "scheduled_end": "2026-09-07T02:30:00",
+    "task_ids": [
+      "PL-TASK-0025",
+      "PL-TASK-0026"
+    ],
+    "departments": [
+      "Engineering",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 50.0,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00193 for PL-TASK-0025, PL-TASK-0026. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  },
+  {
+    "schedule_id": "REPLAN-00017",
+    "block_id": "PL-BLOCK-00203",
+    "corridor_id": "PL-COR-01",
+    "section_id": "PL-SEC-03",
+    "track_id": "PL-DOWN",
+    "scheduled_start": "2026-09-07T00:30:00",
+    "scheduled_end": "2026-09-07T02:15:00",
+    "task_ids": [
+      "PL-TASK-0031",
+      "PL-TASK-0056"
+    ],
+    "departments": [
+      "Engineering",
+      "Signal & Telecommunication"
+    ],
+    "utilization_percent": 43.75,
+    "estimated_train_impact_minutes": 0.0,
+    "is_bundled": true,
+    "is_locked": false,
+    "status": "Proposed",
+    "explanation": "This maintenance block was reconsidered after the unexpected priority perishable-goods movement. Selected PL-BLOCK-00203 for PL-TASK-0031, PL-TASK-0056. Corridor, section, duration, team, equipment and disconnection constraints are satisfied. Traffic level is Low. This block coordinates 2 departments, avoiding separate possessions.",
+    "synthetic_data": true
+  }
+]

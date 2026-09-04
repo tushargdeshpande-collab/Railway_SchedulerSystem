@@ -1,0 +1,14 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+  "planning_method": "Decentralized greedy baseline",
+  "total_tasks": 200,
+  "scheduled_tasks": 200,
+  "unscheduled_tasks": 0,
+  "critical_tasks_scheduled": 18,
+  "high_tasks_scheduled": 55,
+  "blocks_used": 200,
+  "bundled_blocks": 0,
+  "tasks_in_bundled_blocks": 0,
+  "average_block_utilization_percent": 56.93,
+  "estimated_total_train_impact_minutes": 76.0
+}

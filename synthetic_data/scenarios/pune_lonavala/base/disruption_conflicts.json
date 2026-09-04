@@ -1,0 +1,34 @@
+[
+  {
+    "schedule_id": "SCHEDULE-00023",
+    "block_id": "PL-BLOCK-00121",
+    "task_ids": [
+      "PL-TASK-0044",
+      "PL-TASK-0067"
+    ],
+    "section_id": "PL-SEC-07",
+    "track_id": "PL-UP",
+    "maintenance_start": "2026-09-04T00:30:00",
+    "maintenance_end": "2026-09-04T03:00:00",
+    "freight_movement_id": "PL-PRF-001-SEC-07",
+    "freight_entry": "2026-09-04T02:46:15",
+    "freight_exit": "2026-09-04T02:59:37.500000",
+    "is_locked": false
+  },
+  {
+    "schedule_id": "SCHEDULE-00024",
+    "block_id": "PL-BLOCK-00097",
+    "task_ids": [
+      "PL-TASK-0050",
+      "PL-TASK-0051"
+    ],
+    "section_id": "PL-SEC-01",
+    "track_id": "PL-UP",
+    "maintenance_start": "2026-09-04T00:30:00",
+    "maintenance_end": "2026-09-04T02:45:00",
+    "freight_movement_id": "PL-PRF-001-SEC-01",
+    "freight_entry": "2026-09-04T01:20:00",
+    "freight_exit": "2026-09-04T01:33:22.500000",
+    "is_locked": false
+  }
+]

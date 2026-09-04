@@ -1,0 +1,9 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+  "random_seed": 84,
+  "planning_start": "2026-09-01",
+  "planning_days": 30,
+  "record_count": 1800,
+  "corridor_count": 5,
+  "section_count": 15
+}

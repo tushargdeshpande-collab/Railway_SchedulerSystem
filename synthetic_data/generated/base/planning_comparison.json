@@ -1,0 +1,40 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+  "baseline": {
+    "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+    "planning_method": "Decentralized greedy baseline",
+    "total_tasks": 200,
+    "scheduled_tasks": 200,
+    "unscheduled_tasks": 0,
+    "critical_tasks_scheduled": 18,
+    "high_tasks_scheduled": 55,
+    "blocks_used": 200,
+    "bundled_blocks": 0,
+    "tasks_in_bundled_blocks": 0,
+    "average_block_utilization_percent": 56.93,
+    "estimated_total_train_impact_minutes": 76.0
+  },
+  "optimized": {
+    "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+    "solver_status": "FEASIBLE",
+    "solver_runtime_seconds": 30.613,
+    "objective_value": 1267403.0,
+    "total_tasks": 200,
+    "scheduled_tasks": 200,
+    "unscheduled_tasks": 0,
+    "critical_tasks_scheduled": 18,
+    "high_tasks_scheduled": 55,
+    "blocks_used": 107,
+    "bundled_blocks": 84,
+    "tasks_in_bundled_blocks": 177,
+    "average_block_utilization_percent": 64.15,
+    "estimated_total_train_impact_minutes": 49.0
+  },
+  "improvement": {
+    "blocks_avoided": 93,
+    "block_reduction_percent": 46.5,
+    "utilization_improvement_percentage_points": 7.22,
+    "train_impact_change_minutes": -27.0,
+    "additional_tasks_in_bundled_blocks": 177
+  }
+}

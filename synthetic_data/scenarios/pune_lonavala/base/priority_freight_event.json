@@ -1,0 +1,13 @@
+{
+  "event_id": "PL-EVENT-001",
+  "event_type": "Priority Perishable Goods Movement",
+  "train_id": "PL-PRF-001",
+  "description": "An additional time-sensitive synthetic goods train carrying perishable cargo requires corridor access.",
+  "operating_date": "2026-09-04",
+  "corridor_entry": "2026-09-04T01:20:00",
+  "corridor_exit": "2026-09-04T03:15:00",
+  "direction": "Pune to Lonavala",
+  "priority": 10,
+  "maximum_permissible_delay_minutes": 0,
+  "synthetic_data": true
+}

@@ -1,0 +1,41 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Station names are used only to demonstrate the planning workflow. Train timings, counts, chainages, maintenance tasks and forecasts are not official Indian Railways operational data.",
+  "event_type": "Priority Perishable Goods Movement",
+  "event_corridor_entry": "2026-09-04T01:20:00",
+  "replanning_notification_time": "2026-09-03T19:20:00",
+  "original_schedule_count": 35,
+  "directly_conflicting_tasks": 4,
+  "resource_or_dependency_cascade_tasks": 30,
+  "total_replanning_scope_tasks": 34,
+  "unaffected_schedules_preserved": 17,
+  "affected_tasks_rescheduled": 34,
+  "affected_tasks_unscheduled": 0,
+  "new_schedule_count": 34,
+  "replanning_solver_status": "OPTIMAL",
+  "replanning_runtime_seconds": 3.219,
+  "remaining_priority_freight_conflicts": 0,
+  "unchanged_schedule_percentage": 48.57,
+  "candidate_rejection_counts": {
+    "before_notification": 268,
+    "used_by_unaffected": 0,
+    "freight_conflict": 19,
+    "team_unavailable": 0,
+    "dependency_violation": 0
+  },
+  "subset_optimizer_metrics": {
+    "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+    "solver_status": "OPTIMAL",
+    "solver_runtime_seconds": 3.219,
+    "objective_value": 225286.0,
+    "total_tasks": 34,
+    "scheduled_tasks": 34,
+    "unscheduled_tasks": 0,
+    "critical_tasks_scheduled": 3,
+    "high_tasks_scheduled": 9,
+    "blocks_used": 17,
+    "bundled_blocks": 16,
+    "tasks_in_bundled_blocks": 33,
+    "average_block_utilization_percent": 62.57,
+    "estimated_total_train_impact_minutes": 10.0
+  }
+}

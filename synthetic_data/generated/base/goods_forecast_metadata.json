@@ -1,0 +1,8 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+  "random_seed": 126,
+  "planning_start": "2026-09-01",
+  "planning_days": 30,
+  "forecast_windows_per_day": 4,
+  "record_count": 1800
+}

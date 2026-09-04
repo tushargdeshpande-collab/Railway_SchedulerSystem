@@ -1,0 +1,21 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+  "status": "PASS",
+  "scheduled_blocks": 35,
+  "scheduled_tasks": 69,
+  "passed_check_count": 7,
+  "passed_checks": [
+    "Task and block assignments are unique",
+    "All task-to-block hard constraints are satisfied",
+    "All critical maintenance tasks are scheduled",
+    "All task dependencies are correctly sequenced",
+    "No maintenance team is double-booked",
+    "No track has overlapping maintenance schedules",
+    "No optimized maintenance block overlaps a train"
+  ],
+  "warning_count": 0,
+  "warnings": [],
+  "error_count": 0,
+  "errors": [],
+  "train_conflict_samples": []
+}

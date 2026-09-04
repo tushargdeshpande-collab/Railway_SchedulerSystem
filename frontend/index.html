@@ -1,0 +1,1364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <meta
+        name="description"
+        content="AI-assisted railway maintenance block planning and dynamic replanning demonstration."
+    >
+
+    <title>GatiPatha | Automatic Block Planning</title>
+
+    <link rel="stylesheet" href="/ui/styles.css">
+</head>
+
+<body>
+    <div id="loading-screen" class="loading-screen">
+        <div class="loader"></div>
+        <p>Loading GatiPatha planning data…</p>
+    </div>
+
+    <div id="error-banner" class="error-banner hidden">
+        <span id="error-message">
+            Dashboard data could not be loaded.
+        </span>
+
+        <button id="retry-button" type="button">
+            Retry
+        </button>
+    </div>
+
+    <div class="app-shell">
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="brand-mark">GP</div>
+
+                <div>
+                    <h1>GatiPatha</h1>
+                    <p>Automatic Block Planning</p>
+                </div>
+            </div>
+
+            <nav class="navigation" aria-label="Main navigation">
+                <button
+                    class="nav-item active"
+                    data-section="overview"
+                    type="button"
+                >
+                    <span class="nav-icon">▦</span>
+                    Overview
+                </button>
+
+                <button
+                    class="nav-item"
+                    data-section="planner"
+                    type="button"
+                >
+                    <span class="nav-icon">▤</span>
+                    Weekly Planner
+                </button>
+
+                <button
+                    class="nav-item"
+                    data-section="comparison"
+                    type="button"
+                >
+                    <span class="nav-icon">⇄</span>
+                    Plan Comparison
+                </button>
+
+                <button
+                    class="nav-item"
+                    data-section="maintenance"
+                    type="button"
+                >
+                    <span class="nav-icon">⚙</span>
+                    Maintenance Tasks
+                </button>
+
+                <button
+                    class="nav-item"
+                    data-section="disruption"
+                    type="button"
+                >
+                    <span class="nav-icon">⚠</span>
+                    Dynamic Replanning
+                </button>
+
+                <button
+                    class="nav-item"
+                    data-section="sandbox"
+                    type="button"
+                >
+                    <span class="nav-icon">＋</span>
+                    Scenario Sandbox
+                </button>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="system-indicator">
+                    <span
+                        id="system-status-dot"
+                        class="status-dot"
+                    ></span>
+
+                    <div>
+                        <strong id="system-status">
+                            Checking system
+                        </strong>
+
+                        <small>
+                            FastAPI planning service
+                        </small>
+                    </div>
+                </div>
+
+                <p class="team-label">
+                    SIH Software Project<br>
+                    Team GatiPatha Voyage
+                </p>
+            </div>
+        </aside>
+
+        <main class="main-content">
+            <header class="topbar">
+                <div>
+                    <p
+                        id="planning-context"
+                        class="eyebrow"
+                    >
+                        Pune–Lonavala Corridor
+                    </p>
+
+                    <h2 id="page-title">
+                        Operations Overview
+                    </h2>
+                </div>
+
+                <div class="topbar-actions">
+                    <label class="scenario-control">
+                        <span>Planning horizon</span>
+
+                        <select id="planning-horizon">
+                            <option value="weekly">
+                                Weekly
+                            </option>
+
+                            <option value="monthly">
+                                Monthly
+                            </option>
+                        </select>
+                    </label>
+
+                    <button
+                        id="refresh-button"
+                        class="secondary-button"
+                        type="button"
+                    >
+                        Refresh data
+                    </button>
+
+                    <span class="validation-badge">
+                        <span class="validation-dot"></span>
+
+                        <span id="validation-status">
+                            Validating
+                        </span>
+                    </span>
+                </div>
+            </header>
+
+            <div class="synthetic-notice">
+                <strong>Synthetic demonstration</strong>
+
+                <span>
+                    Station names demonstrate the workflow.
+                    Timings, maintenance records and forecasts are
+                    not official Indian Railways operational data.
+                </span>
+            </div>
+
+            <!-- Overview -->
+
+            <section
+                id="overview-section"
+                class="page-section active"
+            >
+                <div class="section-heading">
+                    <div>
+                        <h3 id="planning-performance-title">Planning performance</h3>
+
+                        <p id="planning-performance-description">
+                            Validated maintenance and operational
+                            outcomes after dynamic replanning.
+                        </p>
+                    </div>
+
+                    <span
+                        id="solver-status"
+                        class="solver-badge"
+                    >
+                        Solver —
+                    </span>
+                </div>
+
+                <div class="kpi-grid">
+                    <article class="kpi-card primary">
+                        <div class="kpi-header">
+                            <span>Maintenance tasks</span>
+                            <span class="kpi-icon">⚙</span>
+                        </div>
+
+                        <strong id="kpi-maintenance-tasks">
+                            —
+                        </strong>
+
+                        <p>
+                            Across three infrastructure departments
+                        </p>
+                    </article>
+
+                    <article class="kpi-card">
+                        <div class="kpi-header">
+                            <span>Tasks scheduled</span>
+                            <span class="kpi-icon success">✓</span>
+                        </div>
+
+                        <strong id="kpi-scheduled-tasks">
+                            —
+                        </strong>
+
+                        <p id="kpi-scheduled-detail">
+                            Revised maintenance plan
+                        </p>
+                    </article>
+
+                    <article class="kpi-card">
+                        <div class="kpi-header">
+                            <span>Maintenance blocks</span>
+                            <span class="kpi-icon">▤</span>
+                        </div>
+
+                        <strong id="kpi-revised-blocks">
+                            —
+                        </strong>
+
+                        <p id="kpi-block-reduction">
+                            Compared with original plan
+                        </p>
+                    </article>
+
+                    <article class="kpi-card warning-card">
+                        <div class="kpi-header">
+                            <span id="kpi-card-four-label">Direct conflicts detected</span>
+                            <span class="kpi-icon warning">!</span>
+                        </div>
+
+                        <strong id="kpi-direct-conflicts">
+                            —
+                        </strong>
+
+                        <p id="kpi-card-four-detail">
+                            Priority perishable freight event
+                        </p>
+                    </article>
+
+                    <article class="kpi-card">
+                        <div class="kpi-header">
+                            <span id="kpi-card-five-label">Replanning scope</span>
+                            <span class="kpi-icon">⇄</span>
+                        </div>
+
+                        <strong id="kpi-replanning-scope">
+                            —
+                        </strong>
+
+                        <p id="kpi-card-five-detail">
+                            Direct, resource and dependency effects
+                        </p>
+                    </article>
+
+                    <article class="kpi-card success-card">
+                        <div class="kpi-header">
+                            <span id="kpi-card-six-label">Remaining conflicts</span>
+                            <span class="kpi-icon success">✓</span>
+                        </div>
+
+                        <strong id="kpi-remaining-conflicts">
+                            —
+                        </strong>
+
+                        <p id="kpi-card-six-detail">
+                            Normal trains and priority freight
+                        </p>
+                    </article>
+                </div>
+
+                <div class="dashboard-grid">
+                    <article class="panel priority-panel">
+                        <div class="panel-header">
+                            <div>
+                                <h3>Maintenance priority</h3>
+
+                                <p>
+                                    Explainable criticality and
+                                    urgency scoring
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            id="priority-distribution"
+                            class="distribution-list"
+                        ></div>
+                    </article>
+
+                    <article class="panel department-panel">
+                        <div class="panel-header">
+                            <div>
+                                <h3>Department integration</h3>
+
+                                <p>
+                                    Combined TMS, SMMS and TDMS
+                                    maintenance demand
+                                </p>
+                            </div>
+                        </div>
+
+                        <div
+                            id="department-distribution"
+                            class="distribution-list"
+                        ></div>
+                    </article>
+
+                    <article class="panel result-panel">
+                        <div class="panel-header">
+                            <div>
+                                <h3>Dynamic replanning result</h3>
+
+                                <p>
+                                    Response to the priority freight
+                                    movement
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="result-flow">
+                            <div class="flow-step">
+                                <span>1</span>
+
+                                <div>
+                                    <strong>Event received</strong>
+
+                                    <small>
+                                        Perishable freight priority
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="flow-line"></div>
+
+                            <div class="flow-step">
+                                <span>2</span>
+
+                                <div>
+                                    <strong>Conflicts detected</strong>
+
+                                    <small id="flow-conflicts">
+                                        — direct tasks
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="flow-line"></div>
+
+                            <div class="flow-step">
+                                <span>3</span>
+
+                                <div>
+                                    <strong>Plan optimized</strong>
+
+                                    <small id="flow-runtime">
+                                        — seconds
+                                    </small>
+                                </div>
+                            </div>
+
+                            <div class="flow-line"></div>
+
+                            <div class="flow-step complete">
+                                <span>4</span>
+
+                                <div>
+                                    <strong>Validated plan</strong>
+
+                                    <small>
+                                        Zero remaining conflicts
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- Weekly planner -->
+
+            <section
+                id="planner-section"
+                class="page-section"
+            >
+                <div class="section-heading">
+                    <div>
+                        <h3>Weekly block plan</h3>
+
+                        <p>
+                            Revised maintenance possessions across
+                            the Pune–Lonavala corridor.
+                        </p>
+                    </div>
+                </div>
+
+                <article class="panel approval-panel">
+                    <div class="approval-heading">
+                        <div>
+                            <h3>Plan authorization</h3>
+
+                            <p>
+                                Human approval, block protection and
+                                auditable operational decisions.
+                            </p>
+                        </div>
+
+                        <div class="approval-summary">
+                            <span
+                                id="plan-approval-status"
+                                class="solver-badge"
+                            >
+                                Pending
+                            </span>
+
+                            <span id="locked-block-count">
+                                0 locked blocks
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="approval-form-grid">
+                        <label>
+                            Approver name
+
+                            <input
+                                id="approval-name"
+                                type="text"
+                                value="Demo Section Controller"
+                                maxlength="100"
+                            >
+                        </label>
+
+                        <label>
+                            Approver role
+
+                            <input
+                                id="approval-role"
+                                type="text"
+                                value="Authorized Railway Planner"
+                                maxlength="100"
+                            >
+                        </label>
+
+                        <label>
+                            Remarks / reason
+
+                            <input
+                                id="approval-remarks"
+                                type="text"
+                                placeholder="Reason for the decision"
+                                maxlength="500"
+                            >
+                        </label>
+
+                        <label>
+                            Maintenance block
+
+                            <select id="approval-block-id">
+                                <option value="">
+                                    Select a block
+                                </option>
+                            </select>
+                        </label>
+                    </div>
+
+                    <div class="approval-actions">
+                        <button
+                            id="approve-plan-button"
+                            class="approval-button approve"
+                            type="button"
+                        >
+                            Approve plan
+                        </button>
+
+                        <button
+                            id="reject-plan-button"
+                            class="approval-button reject"
+                            type="button"
+                        >
+                            Reject plan
+                        </button>
+
+                        <button
+                            id="reset-plan-button"
+                            class="approval-button neutral"
+                            type="button"
+                        >
+                            Reset decision
+                        </button>
+
+                        <span class="approval-separator"></span>
+
+                        <button
+                            id="lock-block-button"
+                            class="approval-button lock"
+                            type="button"
+                        >
+                            Lock block
+                        </button>
+
+                        <button
+                            id="unlock-block-button"
+                            class="approval-button neutral"
+                            type="button"
+                        >
+                            Unlock block
+                        </button>
+                    </div>
+
+                    <p
+                        id="approval-message"
+                        class="approval-message"
+                    >
+                        No authorization action performed.
+                    </p>
+                </article>
+
+                <div class="filter-bar">
+                    <label>
+                        Department
+
+                        <select id="planner-department-filter">
+                            <option value="">
+                                All departments
+                            </option>
+
+                            <option value="Engineering">
+                                Engineering
+                            </option>
+
+                            <option
+                                value="Signal & Telecommunication"
+                            >
+                                Signal &amp; Telecommunication
+                            </option>
+
+                            <option
+                                value="Traction Distribution"
+                            >
+                                Traction Distribution
+                            </option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Section
+
+                        <select id="planner-section-filter">
+                            <option value="">
+                                All sections
+                            </option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Track
+
+                        <select id="planner-track-filter">
+                            <option value="">
+                                All tracks
+                            </option>
+
+                            <option value="PL-UP">
+                                Pune → Lonavala
+                            </option>
+
+                            <option value="PL-DOWN">
+                                Lonavala → Pune
+                            </option>
+                        </select>
+                    </label>
+                </div>
+
+                <article class="panel">
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Start</th>
+                                    <th>Section</th>
+                                    <th>Track</th>
+                                    <th>Tasks</th>
+                                    <th>Departments</th>
+                                    <th>Utilization</th>
+                                    <th>Status</th>
+                                </tr>
+                            </thead>
+
+                            <tbody
+                                id="schedule-table-body"
+                            ></tbody>
+                        </table>
+                    </div>
+
+                    <div
+                        id="schedule-empty-state"
+                        class="empty-state hidden"
+                    >
+                        No schedules match the selected filters.
+                    </div>
+                </article>
+            </section>
+
+            <!-- Comparison -->
+
+            <section
+                id="comparison-section"
+                class="page-section"
+            >
+                <div class="section-heading">
+                    <div>
+                        <h3>Original versus revised plan</h3>
+
+                        <p>
+                            Task-level changes produced by the
+                            dynamic replanning engine.
+                        </p>
+                    </div>
+
+                    <div
+                        id="comparison-summary"
+                        class="summary-pills"
+                    ></div>
+                </div>
+
+                <article class="panel">
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Task</th>
+                                    <th>Impact</th>
+                                    <th>Original start</th>
+                                    <th>Revised start</th>
+                                    <th>Original block</th>
+                                    <th>Revised block</th>
+                                    <th>Classification</th>
+                                </tr>
+                            </thead>
+
+                            <tbody
+                                id="comparison-table-body"
+                            ></tbody>
+                        </table>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Maintenance tasks -->
+
+            <section
+                id="maintenance-section"
+                class="page-section"
+            >
+                <div class="section-heading">
+                    <div>
+                        <h3>Maintenance task register</h3>
+
+                        <p>
+                            Unified synthetic maintenance demand from
+                            Engineering, S&amp;T and Traction
+                            Distribution.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="filter-bar">
+                    <label>
+                        Department
+
+                        <select id="task-department-filter">
+                            <option value="">
+                                All departments
+                            </option>
+
+                            <option value="Engineering">
+                                Engineering
+                            </option>
+
+                            <option
+                                value="Signal & Telecommunication"
+                            >
+                                Signal &amp; Telecommunication
+                            </option>
+
+                            <option
+                                value="Traction Distribution"
+                            >
+                                Traction Distribution
+                            </option>
+                        </select>
+                    </label>
+
+                    <label>
+                        Priority
+
+                        <select id="task-priority-filter">
+                            <option value="">
+                                All priorities
+                            </option>
+
+                            <option value="Critical">
+                                Critical
+                            </option>
+
+                            <option value="High">
+                                High
+                            </option>
+
+                            <option value="Medium">
+                                Medium
+                            </option>
+
+                            <option value="Low">
+                                Low
+                            </option>
+                        </select>
+                    </label>
+
+                    <label class="search-field">
+                        Search
+
+                        <input
+                            id="task-search"
+                            type="search"
+                            placeholder="Task, asset or defect"
+                        >
+                    </label>
+                </div>
+
+                <article class="panel">
+                    <div class="table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Task</th>
+                                    <th>Department</th>
+                                    <th>Asset</th>
+                                    <th>Section</th>
+                                    <th>Priority</th>
+                                    <th>Score</th>
+                                    <th>Overdue</th>
+                                    <th>Team</th>
+                                </tr>
+                            </thead>
+
+                            <tbody
+                                id="task-table-body"
+                            ></tbody>
+                        </table>
+                    </div>
+                </article>
+            </section>
+
+            <!-- Dynamic replanning -->
+
+            <section
+                id="disruption-section"
+                class="page-section"
+            >
+                <div class="section-heading">
+                    <div>
+                        <h3>Priority freight response</h3>
+
+                        <p>
+                            Demonstration of targeted maintenance
+                            replanning after an abnormal movement.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="disruption-grid">
+                    <article class="panel event-card">
+                        <span class="event-label">
+                            Injected operational event
+                        </span>
+
+                        <h3 id="event-type">
+                            Priority Perishable Goods Movement
+                        </h3>
+
+                        <dl class="event-details">
+                            <div>
+                                <dt>Direction</dt>
+                                <dd id="event-direction">—</dd>
+                            </div>
+
+                            <div>
+                                <dt>Corridor entry</dt>
+                                <dd id="event-entry">—</dd>
+                            </div>
+
+                            <div>
+                                <dt>Corridor exit</dt>
+                                <dd id="event-exit">—</dd>
+                            </div>
+
+                            <div>
+                                <dt>Section movements</dt>
+                                <dd id="event-movements">—</dd>
+                            </div>
+                        </dl>
+                    </article>
+
+                    <article class="panel impact-card">
+                        <h3>Replanning impact</h3>
+
+                        <div class="impact-numbers">
+                            <div>
+                                <strong id="impact-direct">—</strong>
+                                <span>Direct conflicts</span>
+                            </div>
+
+                            <div>
+                                <strong id="impact-cascade">—</strong>
+                                <span>Cascade tasks</span>
+                            </div>
+
+                            <div>
+                                <strong id="impact-preserved">—</strong>
+                                <span>Schedules preserved</span>
+                            </div>
+
+                            <div>
+                                <strong id="impact-conflicts">—</strong>
+                                <span>Conflicts remaining</span>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+
+                <article class="panel">
+                    <div class="panel-header">
+                        <div>
+                            <h3>Freight section movement</h3>
+
+                            <p>
+                                Eight section-level movements across
+                                the selected corridor.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div
+                        id="freight-timeline"
+                        class="freight-timeline"
+                    ></div>
+                </article>
+            </section>
+
+            <!-- Live Scenario Sandbox -->
+
+            <section
+                id="sandbox-section"
+                class="page-section"
+            >
+                <div class="section-heading">
+                    <div>
+                        <h3>Live Scenario Sandbox</h3>
+
+                        <p>
+                            Inject a synthetic operational abnormality
+                            and trigger automatic conflict detection
+                            and block replanning.
+                        </p>
+                    </div>
+
+                    <span class="solver-badge">
+                        Isolated test environment
+                    </span>
+                </div>
+
+                <div class="sandbox-layout">
+                    <article class="panel sandbox-form-panel">
+                        <div class="panel-header">
+                            <div>
+                                <h3>Create priority movement</h3>
+
+                                <p>
+                                    The validated base plan will not
+                                    be overwritten.
+                                </p>
+                            </div>
+                        </div>
+
+                        <form id="sandbox-form">
+                            <div class="form-grid">
+                                <label>
+                                    Event type
+
+                                    <select
+                                        id="sandbox-event-type"
+                                        required
+                                    >
+                                        <option value="Urgent Perishable Goods Movement">
+                                            Urgent Perishable Goods Movement
+                                        </option>
+
+                                        <option value="Urgent Medical Relief Goods Movement">
+                                            Urgent Medical Relief Goods Movement
+                                        </option>
+
+                                        <option value="Priority Defence Logistics Movement">
+                                            Priority Defence Logistics Movement
+                                        </option>
+
+                                        <option value="Emergency Disaster Relief Movement">
+                                            Emergency Disaster Relief Movement
+                                        </option>
+                                    </select>
+                                </label>
+
+                                <label>
+                                    Train ID
+
+                                    <select
+                                        id="sandbox-train-id"
+                                        required
+                                    >
+                                        <option value="PL-LIVE-PERISHABLE-001">
+                                            PL-LIVE-PERISHABLE-001
+                                        </option>
+
+                                        <option value="PL-MEDICAL-RELIEF-001">
+                                            PL-MEDICAL-RELIEF-001
+                                        </option>
+
+                                        <option value="PL-DEFENCE-LOGISTICS-001">
+                                            PL-DEFENCE-LOGISTICS-001
+                                        </option>
+
+                                        <option value="PL-DISASTER-RELIEF-001">
+                                            PL-DISASTER-RELIEF-001
+                                        </option>
+                                    </select>
+                                </label>
+
+                                <label>
+                                    Corridor entry
+
+                                    <input
+                                        id="sandbox-entry"
+                                        type="datetime-local"
+                                        value="2026-09-04T01:20"
+                                        required
+                                    >
+                                </label>
+
+                                <label>
+                                    Corridor exit
+
+                                    <input
+                                        id="sandbox-exit"
+                                        type="datetime-local"
+                                        value="2026-09-04T03:15"
+                                        required
+                                    >
+                                </label>
+
+                                <label>
+                                    Direction
+
+                                    <select
+                                        id="sandbox-direction"
+                                        required
+                                    >
+                                        <option
+                                            value="Pune to Lonavala"
+                                        >
+                                            Pune → Lonavala
+                                        </option>
+
+                                        <option
+                                            value="Lonavala to Pune"
+                                        >
+                                            Lonavala → Pune
+                                        </option>
+                                    </select>
+                                </label>
+
+                                <label>
+                                    Operational priority
+
+                                    <select id="sandbox-priority">
+                                        <option value="10">
+                                            10 — Emergency
+                                        </option>
+
+                                        <option value="9">
+                                            9 — Very high
+                                        </option>
+
+                                        <option value="8">
+                                            8 — High
+                                        </option>
+
+                                        <option value="7">
+                                            7 — Elevated
+                                        </option>
+                                    </select>
+                                </label>
+
+                                <label>
+                                    Permissible delay
+
+                                    <select id="sandbox-delay">
+                                        <option value="0">
+                                            No delay permitted
+                                        </option>
+
+                                        <option value="15">
+                                            15 minutes
+                                        </option>
+
+                                        <option value="30">
+                                            30 minutes
+                                        </option>
+
+                                        <option value="60">
+                                            60 minutes
+                                        </option>
+                                    </select>
+                                </label>
+
+                                <label class="form-full-width">
+                                    Scenario description
+
+                                    <textarea
+                                        id="sandbox-description"
+                                        rows="3"
+                                    >Synthetic urgent perishable shipment requiring immediate corridor access.</textarea>
+                                </label>
+                            </div>
+
+                            <div class="sandbox-form-actions">
+                                <p>
+                                    Running a conflict scenario can
+                                    take several seconds while CP-SAT
+                                    creates a revised plan.
+                                </p>
+
+                                <button
+                                    id="run-sandbox-button"
+                                    class="primary-button"
+                                    type="submit"
+                                >
+                                    Run scenario
+                                </button>
+                            </div>
+                        </form>
+                    </article>
+
+                    <article class="panel sandbox-guide">
+                        <span class="event-label neutral">
+                            How it works
+                        </span>
+
+                        <h3>
+                            From abnormality to validated decision
+                        </h3>
+
+                        <ol>
+                            <li>
+                                Convert the submitted event into eight
+                                section-level train movements.
+                            </li>
+
+                            <li>
+                                Detect maintenance conflicts by
+                                section, track and time.
+                            </li>
+
+                            <li>
+                                Expand the scope through teams,
+                                bundles and task dependencies.
+                            </li>
+
+                            <li>
+                                Run CP-SAT optimization against
+                                alternative COA block windows.
+                            </li>
+
+                            <li>
+                                Confirm that no priority freight
+                                conflicts remain.
+                            </li>
+                        </ol>
+                    </article>
+                </div>
+
+                <div
+                    id="sandbox-running"
+                    class="sandbox-running hidden"
+                >
+                    <div class="loader"></div>
+
+                    <div>
+                        <strong>
+                            Optimizing the maintenance plan
+                        </strong>
+
+                        <p>
+                            Detecting conflicts, expanding
+                            dependencies and evaluating alternative
+                            block windows…
+                        </p>
+                    </div>
+                </div>
+
+                <div
+                    id="sandbox-result"
+                    class="hidden"
+                >
+                    <div class="section-heading result-heading">
+                        <div>
+                            <h3>Scenario result</h3>
+
+                            <p id="sandbox-result-description">
+                                Optimization completed.
+                            </p>
+                        </div>
+
+                        <span
+                            id="sandbox-result-status"
+                            class="solver-badge"
+                        >
+                            —
+                        </span>
+                    </div>
+
+                    <div class="kpi-grid sandbox-kpis">
+                        <article class="kpi-card">
+                            <div class="kpi-header">
+                                <span>Conflicting blocks</span>
+                                <span class="kpi-icon warning">!</span>
+                            </div>
+
+                            <strong
+                                id="sandbox-conflicting-blocks"
+                            >
+                                —
+                            </strong>
+
+                            <p>
+                                Directly detected schedule conflicts
+                            </p>
+
+                            <details
+                                id="sandbox-conflicting-block-details"
+                                class="sandbox-metric-details"
+                            >
+                                <summary>
+                                    View conflicting blocks
+                                    <span class="details-arrow">⌄</span>
+                                </summary>
+
+                                <div class="metric-detail-list">
+                                    <div class="metric-detail-item">
+                                        Run a scenario to view details
+                                    </div>
+                                </div>
+                            </details>
+                        </article>
+
+                        <article class="kpi-card">
+                            <div class="kpi-header">
+                                <span>Direct tasks</span>
+                                <span class="kpi-icon warning">!</span>
+                            </div>
+
+                            <strong id="sandbox-direct-tasks">
+                                —
+                            </strong>
+
+                            <p>
+                                Tasks directly affected by the event
+                            </p>
+
+                            <details
+                                id="sandbox-direct-task-details"
+                                class="sandbox-metric-details"
+                            >
+                                <summary>
+                                    View direct tasks
+                                    <span class="details-arrow">⌄</span>
+                                </summary>
+
+                                <div class="metric-detail-list">
+                                    <div class="metric-detail-item">
+                                        Run a scenario to view details
+                                    </div>
+                                </div>
+                            </details>
+                        </article>
+
+                        <article class="kpi-card">
+                            <div class="kpi-header">
+                                <span>Replanning scope</span>
+                                <span class="kpi-icon">⇄</span>
+                            </div>
+
+                            <strong id="sandbox-scope">
+                                —
+                            </strong>
+
+                            <p>
+                                Including resource and dependency
+                                cascade
+                            </p>
+
+                            <details
+                                id="sandbox-scope-task-details"
+                                class="sandbox-metric-details"
+                            >
+                                <summary>
+                                    View replanning scope
+                                    <span class="details-arrow">⌄</span>
+                                </summary>
+
+                                <div class="metric-detail-list">
+                                    <div class="metric-detail-item">
+                                        Run a scenario to view details
+                                    </div>
+                                </div>
+                            </details>
+                        </article>
+
+                        <article class="kpi-card">
+                            <div class="kpi-header">
+                                <span>Tasks re-optimized</span>
+                                <span class="kpi-icon success">✓</span>
+                            </div>
+
+                            <strong id="sandbox-rescheduled">
+                                —
+                            </strong>
+
+                            <p>
+                                Tasks evaluated within the replanning scope
+                            </p>
+                        </article>
+
+                        <article class="kpi-card">
+                            <div class="kpi-header">
+                                <span>Remaining conflicts</span>
+                                <span class="kpi-icon success">✓</span>
+                            </div>
+
+                            <strong id="sandbox-remaining">
+                                —
+                            </strong>
+
+                            <p>
+                                After automated replanning
+                            </p>
+                        </article>
+
+                        <article class="kpi-card">
+                            <div class="kpi-header">
+                                <span>Solver runtime</span>
+                                <span class="kpi-icon">◷</span>
+                            </div>
+
+                            <strong id="sandbox-runtime">
+                                —
+                            </strong>
+
+                            <p>
+                                Optimization execution time
+                            </p>
+                        </article>
+                    </div>
+
+                    <article class="panel">
+                        <div
+                            class="panel-header sandbox-result-header"
+                        >
+                            <div>
+                                <h3>Replanning changes</h3>
+
+                                <p id="sandbox-scenario-id">
+                                    Scenario —
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="table-wrapper">
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Task</th>
+                                        <th>Impact</th>
+                                        <th>Original start</th>
+                                        <th>Revised start</th>
+                                        <th>Original block</th>
+                                        <th>Revised block</th>
+                                        <th>Result</th>
+                                    </tr>
+                                </thead>
+
+                                <tbody
+                                    id="sandbox-change-table-body"
+                                ></tbody>
+                            </table>
+                        </div>
+
+                        <div
+                            id="sandbox-no-changes"
+                            class="empty-state hidden"
+                        >
+                            No maintenance conflict was detected.
+                            The original plan remains valid.
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <span>
+                    GatiPatha Voyage · SIH Software Project
+                </span>
+
+                <span>
+                    Explainable prioritization + CP-SAT optimization
+                </span>
+            </footer>
+        </main>
+    </div>
+
+    <script src="/ui/app.js"></script>
+</body>
+</html>

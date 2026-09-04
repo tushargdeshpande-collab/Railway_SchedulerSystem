@@ -1,0 +1,18 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Station names are used only to demonstrate the planning workflow. Train timings, counts, chainages, maintenance tasks and forecasts are not official Indian Railways operational data.",
+  "solver_status": "FEASIBLE",
+  "solver_runtime_seconds": 30.099,
+  "objective_value": 459806.0,
+  "total_tasks": 72,
+  "scheduled_tasks": 69,
+  "unscheduled_tasks": 3,
+  "critical_tasks_scheduled": 6,
+  "high_tasks_scheduled": 18,
+  "blocks_used": 35,
+  "bundled_blocks": 32,
+  "tasks_in_bundled_blocks": 66,
+  "average_block_utilization_percent": 63.71,
+  "estimated_total_train_impact_minutes": 22.0,
+  "scenario": "Original Pune-Lonavala weekly plan",
+  "priority_freight_event_included": false
+}

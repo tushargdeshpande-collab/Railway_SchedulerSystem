@@ -1,0 +1,11 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Station names are used only to demonstrate the planning workflow. Train timings, counts, chainages, maintenance tasks and forecasts are not official Indian Railways operational data.",
+  "generated_block_windows": 224,
+  "windows_rejected_due_to_normal_trains": 0,
+  "remaining_normal_train_conflicts": 0,
+  "priority_freight_event_included": false,
+  "planning_days": 7,
+  "section_count": 8,
+  "track_count": 2,
+  "windows_per_track_per_day": 2
+}

@@ -1,0 +1,42 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Station names are used only to demonstrate the planning workflow. Train timings, counts, chainages, maintenance tasks and forecasts are not official Indian Railways operational data.",
+  "validation_status": "PASS",
+  "passed_check_count": 14,
+  "warning_count": 0,
+  "error_count": 0,
+  "passed_checks": [
+    "All revised schedule IDs are unique.",
+    "No maintenance task is assigned more than once.",
+    "Every scheduled task exists in the maintenance dataset.",
+    "Every revised schedule uses a valid COA block window.",
+    "All revised task assignments satisfy block, duration, department, team, equipment and disconnection constraints.",
+    "No maintenance team has overlapping assignments.",
+    "All scheduled task dependencies are respected.",
+    "The revised schedule has no normal train conflicts.",
+    "The revised schedule has zero priority freight conflicts.",
+    "No originally scheduled maintenance task was lost during replanning.",
+    "All tasks outside the declared replanning scope were preserved.",
+    "The reported preserved-schedule count matches the recomputed count.",
+    "No changed task was moved into a block before the replanning notification time.",
+    "All locked schedules were preserved."
+  ],
+  "warnings": [],
+  "errors": [],
+  "statistics": {
+    "maintenance_tasks_available": 72,
+    "original_schedule_blocks": 35,
+    "revised_schedule_blocks": 34,
+    "original_scheduled_tasks": 69,
+    "revised_scheduled_tasks": 69,
+    "declared_replanning_scope_tasks": 34,
+    "unaffected_tasks_checked": 35,
+    "exact_original_schedules_preserved": 17,
+    "normal_train_conflicts": 0,
+    "priority_freight_conflicts": 0,
+    "change_classification": {
+      "Reassigned": 10,
+      "Rescheduled": 23,
+      "Rebundled": 1
+    }
+  }
+}

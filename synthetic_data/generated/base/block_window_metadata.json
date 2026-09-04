@@ -1,0 +1,7 @@
+{
+  "disclaimer": "Synthetic Demonstration Data - Not an official Indian Railways operational dataset.",
+  "random_seed": 168,
+  "minimum_window_minutes": 45,
+  "safety_buffer_minutes": 10,
+  "record_count": 2854
+}
